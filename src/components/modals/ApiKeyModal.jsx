@@ -40,13 +40,13 @@ const ApiKeyModal = ({ isOpen, onClose, onSave, currentProvider, currentKey }) =
   };
 
   return (
-    <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4 backdrop-blur-sm">
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md p-6 relative">
-        <button onClick={onClose} className="absolute top-4 right-4 text-gray-400 hover:text-gray-600">
+    <div className="fixed inset-0 bg-black/60 z-50 flex items-start sm:items-center justify-center p-3 sm:p-4 backdrop-blur-sm overflow-y-auto">
+      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md my-3 sm:my-0 max-h-[calc(100vh-1.5rem)] sm:max-h-[calc(100vh-2rem)] flex flex-col relative">
+        <button onClick={onClose} className="absolute top-3 right-3 sm:top-4 sm:right-4 text-gray-400 hover:text-gray-600 z-10">
           <X size={24} />
         </button>
 
-        <div className="flex items-center gap-3 mb-6">
+        <div className="flex items-center gap-3 p-5 sm:p-6 pb-3 sm:pb-4 pr-12 shrink-0 border-b border-gray-100">
           <div className="bg-blue-100 p-3 rounded-full">
             <Key className="w-6 h-6 text-blue-600" />
           </div>
@@ -56,7 +56,7 @@ const ApiKeyModal = ({ isOpen, onClose, onSave, currentProvider, currentKey }) =
           </div>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-4 overflow-y-auto px-5 sm:px-6 py-4 sm:py-5">
           {/* Provider selector */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">เลือก AI Provider</label>
@@ -78,7 +78,7 @@ const ApiKeyModal = ({ isOpen, onClose, onSave, currentProvider, currentKey }) =
           </div>
 
           {/* Help link */}
-          <div className="bg-blue-50 p-4 rounded-xl border border-blue-200 text-sm text-blue-800">
+          <div className="bg-blue-50 p-3 sm:p-4 rounded-xl border border-blue-200 text-sm text-blue-800">
             <p className="font-bold mb-1">{meta.helpText}</p>
             {meta.helpUrl && (
               <a
