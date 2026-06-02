@@ -1,0 +1,2338 @@
+<?xml version="1.0" encoding="UTF-8"?><w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16sdtfl="http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16sdtfl w16du wp14">
+  <w:body>
+    <w:p w14:paraId="6729A44E" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00DD3109" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="1701"/>
+          <w:tab w:val="right" w:pos="9000"/>
+        </w:tabs>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+          <w:cs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>หลักสูตรรายวิชา</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="43912957" w14:textId="1D48D6C6" w:rsidR="00A07613" w:rsidRPr="006647AF" w:rsidRDefault="00EA506F" w:rsidP="00A07613">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+        </w:rPr>
+        <w:t>{programLevel}</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="32EBC2C0" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00EF30E6" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>ประเภทวิชา</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:t>{vocationType}</w:t>
+      </w:r>
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">กลุ่มอาชีพ </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:t>{occupationGroup}</w:t>
+      </w:r>
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">สาขาวิชา </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:t>{department}</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="199B18EB" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00EF30E6" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">รหัส </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:t>{courseCode}</w:t>
+      </w:r>
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">ชื่อวิชา </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:t>{courseName}</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="6E17A8B0" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00EF30E6" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">ทฤษฎี </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:t>{theoryHours}</w:t>
+      </w:r>
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">ชั่วโมง/สัปดาห์  ปฏิบัติ </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:t>{practiceHours}</w:t>
+      </w:r>
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">ชั่วโมง/สัปดาห์  จำนวน </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:t>{credits}</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>หน่วยกิต</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1CAF666B" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00EF30E6" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="0FF8E1BA" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00EF30E6" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>อ้างอิงมาตรฐาน</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="59F861A7" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00EF30E6" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="0"/>
+          <w:tab w:val="left" w:pos="709"/>
+          <w:tab w:val="right" w:pos="9356"/>
+        </w:tabs>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:t>{standardRef}</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="28C72FA4" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00EF30E6" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="0"/>
+          <w:tab w:val="left" w:pos="1560"/>
+          <w:tab w:val="right" w:pos="9356"/>
+        </w:tabs>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">(เว้นระยะอักษร </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>10</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">)อักษร </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>10</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7C7B7699" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00EF30E6" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>ผลลัพธ์การเรียนรู้ระดับรายวิชา</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2781CB7D" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00EF30E6" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="0"/>
+          <w:tab w:val="left" w:pos="709"/>
+          <w:tab w:val="left" w:pos="1560"/>
+          <w:tab w:val="right" w:pos="9356"/>
+        </w:tabs>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:cs/>
+        </w:rPr>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:t>{learningOutcomes}</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="39683049" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00363B98" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="0"/>
+          <w:tab w:val="left" w:pos="1560"/>
+          <w:tab w:val="right" w:pos="9356"/>
+        </w:tabs>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">(เว้นระยะอักษร </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>10</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6D112AFF" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00147747" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">จุดประสงค์รายวิชา </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>เพื่อให้</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="46AB679B" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00147747" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="709"/>
+        </w:tabs>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t>{objectives}</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="38B27F99" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00363B98" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="0"/>
+          <w:tab w:val="left" w:pos="1560"/>
+          <w:tab w:val="right" w:pos="9356"/>
+        </w:tabs>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">(เว้นระยะอักษร </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>10</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="32D5E5B4" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00147747" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">สมรรถนะรายวิชา </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="52D9EB0E" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00EF30E6" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="709"/>
+        </w:tabs>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:t>{competencies}</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0D1B4890" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00363B98" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="0"/>
+          <w:tab w:val="left" w:pos="1560"/>
+          <w:tab w:val="right" w:pos="9356"/>
+        </w:tabs>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve">(เว้นระยะอักษร </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>10</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="FFFFFF" w:themeColor="background1"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6ABB72EF" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00147747" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>คำอธิบายรายวิชา</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="343524A0" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00071A7A" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:firstLine="720"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:sectPr w:rsidR="00A07613" w:rsidRPr="00071A7A" w:rsidSect="00A07613">
+          <w:footerReference w:type="default" r:id="rId8"/>
+          <w:pgSz w:w="11906" w:h="16838" w:code="9"/>
+          <w:pgMar w:top="1134" w:right="851" w:bottom="1134" w:left="1418" w:header="709" w:footer="709" w:gutter="0"/>
+          <w:pgNumType w:fmt="thaiLetters" w:start="5"/>
+          <w:cols w:space="708"/>
+          <w:docGrid w:linePitch="360"/>
+        </w:sectPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+        </w:rPr>
+        <w:t>{description}</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="9180" w:type="dxa"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1471"/>
+        <w:gridCol w:w="6179"/>
+        <w:gridCol w:w="1530"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00A07613" w:rsidRPr="00917BA9" w14:paraId="790DC515" w14:textId="77777777" w:rsidTr="009E14DA">
+        <w:trPr>
+          <w:cantSplit/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1471" w:type="dxa"/>
+            <w:vMerge w:val="restart"/>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="75CAD3E1" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00917BA9" w:rsidRDefault="00A07613" w:rsidP="009E14DA">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:noProof/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+              </w:rPr>
+              <w:lastRenderedPageBreak/>
+              <w:drawing>
+                <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="65B975FC" wp14:editId="16F02E6C">
+                  <wp:extent cx="760730" cy="746125"/>
+                  <wp:effectExtent l="0" t="0" r="0" b="0"/>
+                  <wp:docPr id="2" name="Picture 2" descr="ตราสอศ1"/>
+                  <wp:cNvGraphicFramePr>
+                    <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+                  </wp:cNvGraphicFramePr>
+                  <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                    <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                      <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                        <pic:nvPicPr>
+                          <pic:cNvPr id="0" name="Picture 2" descr="ตราสอศ1"/>
+                          <pic:cNvPicPr>
+                            <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
+                          </pic:cNvPicPr>
+                        </pic:nvPicPr>
+                        <pic:blipFill>
+                          <a:blip r:embed="rId9" cstate="print"/>
+                          <a:srcRect/>
+                          <a:stretch>
+                            <a:fillRect/>
+                          </a:stretch>
+                        </pic:blipFill>
+                        <pic:spPr bwMode="auto">
+                          <a:xfrm>
+                            <a:off x="0" y="0"/>
+                            <a:ext cx="760730" cy="746125"/>
+                          </a:xfrm>
+                          <a:prstGeom prst="rect">
+                            <a:avLst/>
+                          </a:prstGeom>
+                          <a:noFill/>
+                          <a:ln>
+                            <a:noFill/>
+                          </a:ln>
+                        </pic:spPr>
+                      </pic:pic>
+                    </a:graphicData>
+                  </a:graphic>
+                </wp:inline>
+              </w:drawing>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="6179" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w14:paraId="012F6311" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00917BA9" w:rsidRDefault="00A07613" w:rsidP="009E14DA">
+            <w:pPr>
+              <w:pStyle w:val="Heading7"/>
+              <w:spacing w:before="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+              <w:t>แผนการจัดการเรียนรู้</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1530" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w14:paraId="11F82E1D" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00917BA9" w:rsidRDefault="00A07613" w:rsidP="009E14DA">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+              <w:t xml:space="preserve">หน่วยที่ </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+              <w:t>…</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00A07613" w:rsidRPr="00917BA9" w14:paraId="1A604875" w14:textId="77777777" w:rsidTr="009E14DA">
+        <w:trPr>
+          <w:cantSplit/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1471" w:type="dxa"/>
+            <w:vMerge/>
+          </w:tcPr>
+          <w:p w14:paraId="204EA4F7" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00917BA9" w:rsidRDefault="00A07613" w:rsidP="009E14DA">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="6179" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w14:paraId="041B49DD" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00917BA9" w:rsidRDefault="00A07613" w:rsidP="009E14DA">
+            <w:pPr>
+              <w:pStyle w:val="Heading7"/>
+              <w:spacing w:before="0"/>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+              <w:t xml:space="preserve">รหัสวิชา </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+              <w:t>{courseCode}</w:t>
+            </w:r>
+            
+            
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+              <w:t xml:space="preserve"> ชื่อวิชา</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> {courseName}</w:t>
+            </w:r>
+            
+            
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:u w:val="dotted"/>
+              </w:rPr>
+              <w:t xml:space="preserve">     </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1530" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w14:paraId="25ED4441" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00917BA9" w:rsidRDefault="00A07613" w:rsidP="009E14DA">
+            <w:pPr>
+              <w:pStyle w:val="Heading7"/>
+              <w:spacing w:before="0"/>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:u w:val="dotted"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+              <w:t xml:space="preserve">สอนครั้งที่ </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+              <w:t>…</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00A07613" w:rsidRPr="00917BA9" w14:paraId="5B11D4E6" w14:textId="77777777" w:rsidTr="009E14DA">
+        <w:trPr>
+          <w:cantSplit/>
+          <w:trHeight w:val="229"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1471" w:type="dxa"/>
+            <w:vMerge/>
+          </w:tcPr>
+          <w:p w14:paraId="7AC877FB" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00917BA9" w:rsidRDefault="00A07613" w:rsidP="009E14DA">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="6179" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w14:paraId="77AFE353" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00917BA9" w:rsidRDefault="00A07613" w:rsidP="009E14DA">
+            <w:pPr>
+              <w:pStyle w:val="NoSpacing"/>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:eastAsiaTheme="majorEastAsia" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+              <w:t>ชื่อหน่วยการเรียนรู้</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:eastAsiaTheme="majorEastAsia" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+              <w:t>{unitName}</w:t>
+            </w:r>
+            
+            
+            
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1530" w:type="dxa"/>
+            <w:vMerge w:val="restart"/>
+          </w:tcPr>
+          <w:p w14:paraId="31B0CCD5" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00917BA9" w:rsidRDefault="00A07613" w:rsidP="009E14DA">
+            <w:pPr>
+              <w:pStyle w:val="Heading7"/>
+              <w:spacing w:before="0"/>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+              <w:t>ทฤษฎี</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> {unitTheory} </w:t>
+            </w:r>
+            
+            
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+              <w:t>ชม.</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="66AECD96" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00917BA9" w:rsidRDefault="00A07613" w:rsidP="009E14DA">
+            <w:pPr>
+              <w:pStyle w:val="Heading7"/>
+              <w:spacing w:before="0"/>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+              <w:t>ปฏิบัติ</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> {unitPractice} </w:t>
+            </w:r>
+            
+            
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+              <w:t>ชม.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00A07613" w:rsidRPr="00917BA9" w14:paraId="0C1B4ABE" w14:textId="77777777" w:rsidTr="009E14DA">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="7650" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+          </w:tcPr>
+          <w:p w14:paraId="56215A7D" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00917BA9" w:rsidRDefault="00A07613" w:rsidP="009E14DA">
+            <w:pPr>
+              <w:pStyle w:val="Heading7"/>
+              <w:spacing w:before="0"/>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+              <w:t>ชื่อเรื่อง/งาน</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> {unitTopics}</w:t>
+            </w:r>
+            
+            
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+              <w:tab/>
+            <w:tab/></w:r>
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1530" w:type="dxa"/>
+            <w:vMerge/>
+          </w:tcPr>
+          <w:p w14:paraId="58994C91" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00917BA9" w:rsidRDefault="00A07613" w:rsidP="009E14DA">
+            <w:pPr>
+              <w:pStyle w:val="Heading7"/>
+              <w:spacing w:before="0"/>
+              <w:rPr>
+                <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+                <w:i w:val="0"/>
+                <w:iCs w:val="0"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:szCs w:val="32"/>
+                <w:cs/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="0E0F1C5D" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="74BFDE3E" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>1. ผลลัพธ์การเรียนรู้ระดับหน่วยการเรียน</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7FBDF525" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="002D096C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282" w:firstLine="567"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t>{outcome}</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3572799D" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>2.</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> อ้างอิงมาตรฐาน/เชื่อมโยงกลุ่มอาชีพ</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="03B0488A" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9000"/>
+        </w:tabs>
+        <w:ind w:right="282" w:firstLine="567"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t xml:space="preserve">2.1 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>มาตรฐานอาชีพ.................................สมรรถนะย่อย............</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1CDB9B12" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9000"/>
+        </w:tabs>
+        <w:ind w:right="282" w:firstLine="851"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t xml:space="preserve">1) </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>เกณฑ์การปฏิบัติงาน....</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2FD8B936" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282" w:firstLine="851"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t xml:space="preserve">2) </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:eastAsia="Calibri" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:kern w:val="2"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>วิธีประเมิน...................</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="284624E2" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282" w:firstLine="851"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t xml:space="preserve">3) </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>หลักฐานการปฏิบัติงาน (</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t>Performance Evidence)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2601CAE5" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282" w:firstLine="851"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t>4)</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> หลักฐานความรู้ (</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t>Knowledge Evidence)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2DD17009" w14:textId="77777777" w:rsidR="00A07613" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9000"/>
+        </w:tabs>
+        <w:ind w:right="282" w:firstLine="567"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t xml:space="preserve">2.2 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>บูรณาการ</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>กลุ่มอาชีพ</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>........................................</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="56C3CFA0" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>3.</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> สมรรถนะประจำหน่วย</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="31011C78" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="006503DA" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282" w:firstLine="567"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+        </w:rPr>
+        <w:t>3.1 {comp1}</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="12ADFE4A" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="006503DA" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282" w:firstLine="567"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+        </w:rPr>
+        <w:t>3.2 {comp</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t>2</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+        </w:rPr>
+        <w:t>}</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3801166E" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>. จุดประสงค์เชิงพฤติกรรม</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK" w:hint="cs"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="392BD2C6" w14:textId="5BE6CA32" w:rsidR="00A07613" w:rsidRPr="006503DA" w:rsidRDefault="00A07613" w:rsidP="00B33846">
+      <w:pPr>
+        <w:ind w:right="282" w:firstLine="567"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t>4.1 {objectives}</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="6141B578" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>5</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>. สาระการเรียนรู้</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="30DB97A2" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="002D096C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:tab/>
+      <w:t>{concept}</w:t></w:r>
+      
+    </w:p>
+    <w:p w14:paraId="7354EFED" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>6</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>. กิจกรรมการเรียนรู้</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">    </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1C853B47" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="00107DED" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:lang w:val="en-TH"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:tab/>
+      <w:t>{activities}</w:t></w:r>
+      
+    </w:p>
+    <w:p w14:paraId="3E3FE716" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">7. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>สื่อและแหล่งการเรียนรู้</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="34911E18" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="002D096C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:tab/>
+      <w:t>{media}</w:t></w:r>
+      
+    </w:p>
+    <w:p w14:paraId="3E3C5629" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>8</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>. หลักฐานการเรียนรู้</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2BC23BC3" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282" w:firstLine="567"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t xml:space="preserve">8.1 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>หลักฐานความรู้</w:t>
+      <w:tab/><w:tab/><w:tab/><w:tab/><w:tab/><w:tab/><w:tab/><w:tab/><w:tab/><w:tab/></w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="557B6BA6" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="002D096C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="851"/>
+        </w:tabs>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:tab/>
+      <w:t>{knowledgeEvidence}</w:t></w:r>
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="7ADDA7E7" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282" w:firstLine="567"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t xml:space="preserve">8.2 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>หลักฐานการปฏิบัติงาน</w:t>
+      <w:tab/><w:tab/><w:tab/><w:tab/><w:tab/><w:tab/><w:tab/><w:tab/><w:tab/></w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="247F38A3" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="002D096C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="851"/>
+        </w:tabs>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:tab/>
+      <w:t>{performanceEvidence}</w:t></w:r>
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="3FAC9876" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>9</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>. การวัดและประเมินผล</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5B61B923" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282" w:firstLine="567"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t>9</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>.1 เกณฑ์การปฏิบัติงาน</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4F085E7D" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="002D096C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="851"/>
+        </w:tabs>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:tab/>
+      <w:t>{performanceCriteria}</w:t></w:r>
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="0F1DB509" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282" w:firstLine="567"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t>9</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>.2 วิธีการประเมิน</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="01B6C2A9" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="002D096C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="851"/>
+        </w:tabs>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:tab/>
+      <w:t>{assessmentMethods}</w:t></w:r>
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="5B567D33" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282" w:firstLine="567"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t>9</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>.</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t>3</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t xml:space="preserve"> เครื่องมือประเมิน</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="200DE306" w14:textId="77777777" w:rsidR="00A07613" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="851"/>
+        </w:tabs>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:u w:val="dotted"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:tab/>
+      <w:t>{assessmentTools}</w:t></w:r>
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="4FCB3153" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>10</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:b/>
+          <w:bCs/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>. บันทึกผลหลังการจัดการเรียนรู้</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="41301651" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:right="282" w:firstLine="567"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t>10</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>.1 ข้อสรุปหลังการจัดการเรียนรู้</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6CD5011B" w14:textId="77777777" w:rsidR="00A07613" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="851"/>
+        </w:tabs>
+        <w:ind w:left="567" w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:tab/>
+      <w:t>…………………………………………………………………………………………………………………………….………………</w:t><w:tab/><w:t>…………………………………………………………………………………………………………………………….………………</w:t></w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="4298674A" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="851"/>
+        </w:tabs>
+        <w:ind w:left="567" w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:tab/>
+      <w:t>…………………………………………………………………………………………………………………………….………………10</w:t></w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>.2 ปัญหาที่พบ</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6BBF4CBC" w14:textId="77777777" w:rsidR="00A07613" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="851"/>
+        </w:tabs>
+        <w:ind w:left="567" w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:tab/>
+      <w:t>…………………………………………………………………………………………………………………………….………………</w:t><w:tab/><w:t>…………………………………………………………………………………………………………………………….………………</w:t></w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="24EFB3BF" w14:textId="77777777" w:rsidR="00A07613" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:left="567" w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t xml:space="preserve">    ………..……………………………………………………………………………………………………………………….…………</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1ACF6BFF" w14:textId="77777777" w:rsidR="00A07613" w:rsidRPr="0052395C" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:left="567" w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t>10</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+          <w:cs/>
+        </w:rPr>
+        <w:t>.3 แนวทางแก้ปัญหา</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="226EE5AA" w14:textId="77777777" w:rsidR="00A07613" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="851"/>
+        </w:tabs>
+        <w:ind w:left="567" w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:tab/>
+      <w:t>…………………………………………………………………………………………………………………………….………………</w:t><w:tab/><w:t>…………………………………………………………………………………………………………………………….………………</w:t></w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="136D5DF0" w14:textId="77777777" w:rsidR="00A07613" w:rsidRDefault="00A07613" w:rsidP="00A07613">
+      <w:pPr>
+        <w:ind w:left="567" w:right="282"/>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="TH SarabunPSK" w:hAnsi="TH SarabunPSK" w:cs="TH SarabunPSK"/>
+        </w:rPr>
+        <w:t xml:space="preserve">    ………..……………………………………………………………………………………………………………………….…………</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5A78B855" w14:textId="2A324FBC" w:rsidR="002D096C" w:rsidRPr="00A07613" w:rsidRDefault="002D096C" w:rsidP="00A07613"/>
+    <w:sectPr w:rsidR="002D096C" w:rsidRPr="00A07613" w:rsidSect="009D6675">
+      <w:footerReference w:type="default" r:id="rId10"/>
+      <w:pgSz w:w="11906" w:h="16838" w:code="9"/>
+      <w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1418" w:header="709" w:footer="709" w:gutter="0"/>
+      <w:pgNumType w:fmt="thaiLetters" w:start="5"/>
+      <w:cols w:space="708"/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>

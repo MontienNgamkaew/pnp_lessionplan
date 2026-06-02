@@ -1,0 +1,12 @@
+node_modules
+dist
+.DS_Store
+*.local
+.github/
+
+# Personal research documents (manuscript, data, journal — never commit)
+*Manuscript*.docx
+*Data_Collection*.docx
+*Journal*.docx
+*Executive_Summary*.docx
+0?_*.docx

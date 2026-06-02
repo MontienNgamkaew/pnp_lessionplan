@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: ai-lesson-plannerv3-full
+    runtime: static
+    # Aggressively wipe node_modules + both npm cache locations to defeat
+    # Render's persistent disk cache (which has been corrupting fast-glob).
+    # After install, verify fast-glob/out/utils exists; if missing, force
+    # a targeted reinstall of fast-glob before running the build.
+    buildCommand: |
+      set -e
+      rm -rf node_modules
+      rm -rf /opt/render/.cache/npm || true
+      rm -rf ~/.npm || true
+      npm cache clean --force
+      npm ci --no-audit --no-fund || npm install --no-audit --no-fund
+      echo "=== fast-glob/out ==="
+      ls -la node_modules/fast-glob/out/ 2>&1 || true
+      echo "=== fast-glob/out/utils ==="
+      if ! ls node_modules/fast-glob/out/utils/index.js 2>/dev/null; then
+        echo "!! fast-glob utils missing — reinstalling fast-glob"
+        rm -rf node_modules/fast-glob
+        npm install fast-glob@3.3.3 --no-save --no-audit --no-fund
+        ls -la node_modules/fast-glob/out/utils/
+      fi
+      npm run build
+    staticPublishPath: ./dist
+    autoDeploy: yes
+    envVars:
+      - key: NODE_VERSION
+        value: 20.18.0
+      - key: NPM_CONFIG_PRODUCTION
+        value: "false"
