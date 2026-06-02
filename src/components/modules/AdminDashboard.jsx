@@ -32,6 +32,7 @@ const AdminDashboard = () => {
   const [code, setCode] = useState('');
   const [codeError, setCodeError] = useState('');
   const [loading, setLoading] = useState(false);
+  const [dashboardError, setDashboardError] = useState('');
   const [data, setData] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [activeTab, setActiveTab] = useState('overview');
@@ -65,14 +66,23 @@ const AdminDashboard = () => {
 
   const fetchData = async () => {
     setLoading(true);
+    setDashboardError('');
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 12000);
     try {
-      const res = await fetch(`${SHEET_URL}?action=dashboard`);
+      const res = await fetch(`${SHEET_URL}?action=dashboard`, { signal: controller.signal });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();
       setData(json);
     } catch (err) {
       console.error('Dashboard fetch error:', err);
+      setDashboardError(err.name === 'AbortError'
+        ? 'โหลดข้อมูล Dashboard ไม่สำเร็จ: ปลายทางตอบช้าเกิน 12 วินาที'
+        : `โหลดข้อมูล Dashboard ไม่สำเร็จ: ${err.message || 'ไม่ทราบสาเหตุ'}`
+      );
       setData({ users: [], stats: [], summary: { totalUsers: 0, totalEvents: 0, totalVisits: 0, totalDownloads: 0, totalGenerations: 0 } });
     } finally {
+      clearTimeout(timeoutId);
       setLoading(false);
     }
   };
@@ -381,6 +391,13 @@ const AdminDashboard = () => {
           </button>
         </div>
       </div>
+
+      {dashboardError && (
+        <div className="mb-4 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800 flex items-start gap-2">
+          <AlertCircle size={18} className="shrink-0 mt-0.5" />
+          <span>{dashboardError}</span>
+        </div>
+      )}
 
       {/* Stat Cards */}
       <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6">
