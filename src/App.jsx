@@ -73,6 +73,7 @@ function AuthenticatedApp() {
   // --- Global UI state ---
   const [activeMenu, setActiveMenu] = usePersistedState('lp_activeMenu', 'analysis');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = usePersistedState('pnp_sidebar_collapsed', false);
   const [error, setError] = useState(null);
   const [isPdfToolOpen, setIsPdfToolOpen] = useState(false);
   const [isStandardPopupOpen, setIsStandardPopupOpen] = useState(false);
@@ -633,7 +634,7 @@ function AuthenticatedApp() {
       </div>
 
       <div className="flex max-w-[1480px] mx-auto pt-4 px-3 sm:px-4 gap-4 lg:gap-5 items-start">
-        <aside className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:block w-full md:w-80 shrink-0 z-40`}>
+        <aside className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:block w-full ${isSidebarCollapsed ? 'md:w-20' : 'md:w-80'} shrink-0 z-40 transition-[width] duration-200`}>
           <Sidebar
             activeMenu={activeMenu} setActiveMenu={setActiveMenu}
             onMobileClose={() => setIsMobileMenuOpen(false)}
@@ -642,6 +643,8 @@ function AuthenticatedApp() {
             onImportProject={handleImportProject}
             onSecretBatchTrigger={runBatchEarlyModules}
             onOpenAdminPool={trainingAdmin.openPool}
+            collapsed={isSidebarCollapsed && !isMobileMenuOpen}
+            onToggleCollapsed={() => setIsSidebarCollapsed((value) => !value)}
           />
         </aside>
         <main className="flex-1 min-w-0">

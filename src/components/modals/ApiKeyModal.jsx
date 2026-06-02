@@ -3,6 +3,7 @@ import { X, Key, ExternalLink, Eye, EyeOff, ShieldCheck, Scale } from 'lucide-re
 import { getAvailableProviders } from '../../providers/index';
 import { getStoredApiKey as getKeyForProvider } from '../../hooks/useAiApi';
 import { getLoadBalanceMode, setLoadBalanceMode, LOAD_BALANCE_THRESHOLD } from '../../utils/loadBalancer';
+import ProviderBadge from '../common/ProviderBadge';
 
 const PROVIDERS = getAvailableProviders();
 
@@ -65,13 +66,14 @@ const ApiKeyModal = ({ isOpen, onClose, onSave, currentProvider, currentKey }) =
                 <button
                   key={p.id}
                   onClick={() => setSelectedProvider(p.id)}
-                  className={`px-3 py-2.5 rounded-xl text-sm font-medium border-2 transition-all ${
+                  className={`px-3 py-2.5 rounded-xl text-sm font-medium border-2 transition-all flex items-center gap-2 text-left ${
                     selectedProvider === p.id
                       ? 'border-blue-500 bg-blue-50 text-blue-700 shadow-sm'
                       : 'border-gray-200 bg-white text-gray-600 hover:border-gray-300 hover:bg-gray-50'
                   }`}
                 >
-                  {p.name}
+                  <ProviderBadge providerId={p.id} size="sm" />
+                  <span className="min-w-0 leading-tight">{p.name}</span>
                 </button>
               ))}
             </div>

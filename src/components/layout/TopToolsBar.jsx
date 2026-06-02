@@ -4,6 +4,7 @@ import {
   ShieldAlert, Video, XCircle,
 } from 'lucide-react';
 import { createProvider } from '../../providers';
+import ProviderBadge from '../common/ProviderBadge';
 
 const STATUS = {
   unchecked: { label: 'ยังไม่ได้ตั้งค่า', color: 'border-slate-200 bg-white text-slate-600', dot: 'bg-slate-300', icon: ShieldAlert },
@@ -78,13 +79,16 @@ const TopToolsBar = ({ onOpenPdfTool, onOpenApiKeyModal, providerName, providerI
   return (
     <div className="pnp-shell-card rounded-xl mb-4 px-3 sm:px-4 py-3">
       <div className="flex flex-col xl:flex-row xl:items-center gap-3 justify-between">
-        <div className="min-w-0">
-          <div className="text-[11px] font-bold uppercase tracking-[0.16em] text-slate-400">Command Center</div>
-          <div className="mt-1 flex items-center gap-2 text-sm text-slate-600">
-            <span className={`h-2.5 w-2.5 rounded-full ${s.dot}`} />
-            <span className="font-semibold text-slate-900">{providerName || 'AI Provider'}</span>
-            <span className="text-slate-400">/</span>
-            <span>{s.label}</span>
+        <div className="flex min-w-0 items-center gap-3">
+          <ProviderBadge providerId={providerId} size="lg" />
+          <div className="min-w-0">
+            <div className="text-[11px] font-bold uppercase tracking-[0.16em] text-slate-400">Command Center</div>
+            <div className="mt-1 flex items-center gap-2 text-sm text-slate-600">
+              <span className={`h-2.5 w-2.5 rounded-full ${s.dot}`} />
+              <span className="font-semibold text-slate-900">{providerName || 'AI Provider'}</span>
+              <span className="text-slate-400">/</span>
+              <span>{s.label}</span>
+            </div>
           </div>
         </div>
 
