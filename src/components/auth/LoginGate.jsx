@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { BookOpen, Eye, EyeOff, Lock, User } from 'lucide-react';
+import { BookOpenCheck, Eye, EyeOff, Lock, Sparkles, User } from 'lucide-react';
 
 const SESSION_KEY = 'lp_auth_session';
 const LOCAL_USER_KEY = 'lp_auth_user';
@@ -124,15 +124,38 @@ export default function LoginGate({ children }) {
   if (isAuthenticated) return children;
 
   return (
-    <div className="min-h-screen bg-slate-100 flex items-center justify-center px-4 py-8">
-      <div className="w-full max-w-sm">
-        <div className="bg-white border border-slate-200 rounded-lg shadow-xl p-6">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-11 h-11 rounded-lg bg-blue-700 text-white flex items-center justify-center">
-              <BookOpen size={23} />
+    <div className="min-h-screen flex items-center justify-center px-4 py-8 relative overflow-hidden">
+      <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(15,42,74,0.96),rgba(29,78,216,0.88)_48%,rgba(14,165,233,0.78))]" />
+      <div className="absolute inset-x-0 top-0 h-40 bg-white/10 blur-3xl" />
+      <div className="relative w-full max-w-5xl grid lg:grid-cols-[1.05fr_0.95fr] gap-6 items-stretch">
+        <div className="hidden lg:flex rounded-xl border border-white/15 bg-white/10 backdrop-blur-xl p-8 text-white flex-col justify-between shadow-2xl">
+          <div>
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-sky-100">
+              <Sparkles size={14} /> Professional Education AI
+            </div>
+            <h1 className="mt-8 text-4xl font-extrabold leading-tight">
+              PNP AI<br />Lesson Planner
+            </h1>
+            <p className="mt-4 max-w-md text-sm leading-7 text-blue-50">
+              ระบบผู้ช่วย AI สำหรับครูอาชีวศึกษา ออกแบบให้ทำงานเป็นขั้นตอน น่าเชื่อถือ และพร้อมใช้ในงานวิชาการ
+            </p>
+          </div>
+          <div className="grid grid-cols-3 gap-3 text-xs">
+            {['วิเคราะห์หลักสูตร', 'สร้างแผนรายหน่วย', 'ส่งออกเอกสาร'].map((item) => (
+              <div key={item} className="rounded-lg border border-white/15 bg-white/10 p-3 text-blue-50">
+                {item}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="pnp-shell-card rounded-xl p-6 sm:p-7 self-center">
+          <div className="flex items-center gap-3 mb-7">
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-700 to-sky-500 text-white flex items-center justify-center shadow-lg shadow-blue-700/20">
+              <BookOpenCheck size={25} />
             </div>
             <div className="min-w-0">
-              <h1 className="text-lg font-bold text-slate-900 leading-tight">PNP Lesson Plan</h1>
+              <h1 className="text-xl font-bold text-slate-950 leading-tight">PNP AI Lesson Planner</h1>
               <p className="text-xs text-slate-500 leading-snug">{helper}</p>
             </div>
           </div>
@@ -146,7 +169,7 @@ export default function LoginGate({ children }) {
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                   autoComplete="username"
-                  className="w-full h-11 pl-10 pr-3 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-100 outline-none text-sm"
+                  className="w-full h-11 pl-10 pr-3 rounded-lg pnp-field text-sm"
                   placeholder="ชื่อผู้ใช้"
                   disabled={loading}
                 />
@@ -161,7 +184,7 @@ export default function LoginGate({ children }) {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   autoComplete={authMode === 'setup' ? 'new-password' : 'current-password'}
-                  className="w-full h-11 pl-10 pr-11 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-100 outline-none text-sm"
+                  className="w-full h-11 pl-10 pr-11 rounded-lg pnp-field text-sm"
                   placeholder="รหัสผ่าน"
                   disabled={loading}
                 />
@@ -183,7 +206,7 @@ export default function LoginGate({ children }) {
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
                   autoComplete="new-password"
-                  className="w-full h-11 px-3 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-100 outline-none text-sm"
+                  className="w-full h-11 px-3 rounded-lg pnp-field text-sm"
                   placeholder="ยืนยันรหัสผ่าน"
                   disabled={loading}
                 />
@@ -199,7 +222,7 @@ export default function LoginGate({ children }) {
             <button
               type="submit"
               disabled={loading}
-              className="w-full h-11 rounded-lg bg-blue-700 text-white font-semibold hover:bg-blue-800 disabled:opacity-60 disabled:cursor-not-allowed transition"
+              className="w-full h-11 rounded-lg pnp-btn-primary font-semibold disabled:opacity-60 disabled:cursor-not-allowed transition"
             >
               {loading ? 'กำลังตรวจสอบ...' : authMode === 'setup' ? 'บันทึกและเข้าใช้งาน' : 'เข้าสู่ระบบ'}
             </button>

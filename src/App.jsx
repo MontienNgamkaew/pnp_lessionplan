@@ -609,7 +609,7 @@ function AuthenticatedApp() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 font-sans pb-12">
+    <div className="min-h-screen font-sans pb-10 text-slate-800">
       <TrainingBanner session={training.session} onLeave={training.leaveTraining} />
       <ErrorPopup message={error} onClose={() => setError(null)} />
       <StandardSearchPopup
@@ -627,13 +627,13 @@ function AuthenticatedApp() {
         currentKey={apiKey}
       />
 
-      <div className="md:hidden bg-blue-700 text-white p-4 flex items-center justify-between sticky top-0 z-50 shadow-md">
-        <span className="font-bold flex items-center gap-2"><BookOpen size={20} /> AI ช่วยทำแผนการสอน</span>
-        <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="p-1 rounded hover:bg-blue-600"><Menu size={24} /></button>
+      <div className="md:hidden bg-slate-950 text-white px-4 py-3 flex items-center justify-between sticky top-0 z-50 shadow-lg">
+        <span className="font-bold flex items-center gap-2"><BookOpen size={20} /> PNP AI Lesson Planner</span>
+        <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="p-2 rounded-lg hover:bg-white/10"><Menu size={22} /></button>
       </div>
 
-      <div className="flex max-w-[1440px] mx-auto pt-4 px-4 gap-6 items-start">
-        <aside className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:block w-full md:w-72 shrink-0 z-40`}>
+      <div className="flex max-w-[1480px] mx-auto pt-4 px-3 sm:px-4 gap-4 lg:gap-5 items-start">
+        <aside className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:block w-full md:w-80 shrink-0 z-40`}>
           <Sidebar
             activeMenu={activeMenu} setActiveMenu={setActiveMenu}
             onMobileClose={() => setIsMobileMenuOpen(false)}
