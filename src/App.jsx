@@ -12,6 +12,7 @@ import UserInfoModal, { useDownloadWithUserInfo } from './components/modals/User
 import { useTrainingMode } from './hooks/useTrainingMode';
 import TrainingBanner, { ModuleGate } from './components/common/TrainingBanner';
 import TrainingAdminModal, { useTrainingAdminTrigger } from './components/modals/TrainingAdminModal';
+import LoginGate from './components/auth/LoginGate';
 
 import AnalysisModule from './components/modules/AnalysisModule';
 import LearningOutcomesModule from './components/modules/LearningOutcomesModule';
@@ -41,6 +42,14 @@ const EMPTY_FORM = {
 };
 
 export default function App() {
+  return (
+    <LoginGate>
+      <AuthenticatedApp />
+    </LoginGate>
+  );
+}
+
+function AuthenticatedApp() {
   // --- AI Provider + Key (user must set their own) ---
   const [providerId, setProviderId] = useState(() => getStoredProvider() || DEFAULT_PROVIDER);
   const [apiKey, setApiKey] = useState(() => getStoredApiKey(getStoredProvider() || DEFAULT_PROVIDER));
