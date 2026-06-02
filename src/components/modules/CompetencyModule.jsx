@@ -200,7 +200,7 @@ const CompetencyModule = ({
               <button
                 onClick={generate}
                 disabled={loading}
-                className="w-full bg-purple-600 text-white py-3 rounded-xl font-bold hover:bg-purple-700 shadow-lg flex items-center justify-center gap-2"
+                className="pnp-action-primary py-3"
               >
                 {loading ? <Loader2 className="animate-spin" /> : <Sparkles size={20} />} สร้างสมรรถนะทันที
               </button>
@@ -219,8 +219,8 @@ const CompetencyModule = ({
               <button
                 onClick={generate}
                 disabled={loading || !compFile}
-                className={`w-full mt-4 py-2.5 rounded-xl font-semibold transition shadow-md flex items-center justify-center gap-2 ${
-                  !compFile ? 'bg-gray-300 text-gray-500 cursor-not-allowed' : 'bg-blue-600 text-white hover:bg-blue-700'
+                className={`w-full mt-4 py-2.5 rounded-lg font-semibold transition shadow-sm flex items-center justify-center gap-2 ${
+                  !compFile ? 'bg-gray-300 text-gray-500 cursor-not-allowed' : 'bg-blue-700 text-white hover:bg-blue-800'
                 }`}
               >
                 {loading ? <Loader2 className="animate-spin" /> : <Sparkles size={18} />} สร้างสมรรถนะประจำหน่วย
@@ -291,7 +291,7 @@ const CompetencyModule = ({
                 <h4 className="text-gray-700 font-bold mb-3">ขั้นตอนต่อไป</h4>
                 <button
                   onClick={() => onNavigate('objectives')}
-                  className="bg-indigo-600 text-white px-8 py-3 rounded-xl font-bold hover:bg-indigo-700 shadow-lg flex items-center gap-2 mx-auto animate-bounce"
+                  className="pnp-action-inline px-8 py-3 mx-auto"
                 >
                   ไปขั้นตอนต่อไป: จุดประสงค์เชิงพฤติกรรม (Module 4) <ArrowRight size={20} />
                 </button>

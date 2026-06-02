@@ -144,7 +144,7 @@ const AdminDashboard = () => {
             </div>
             <button
               onClick={handleLogin}
-              className="w-full bg-blue-600 text-white py-3 rounded-xl font-bold hover:bg-blue-700 shadow-lg flex items-center justify-center gap-2"
+              className="pnp-action-primary py-3"
             >
               <Lock size={18} /> เข้าสู่ระบบ
             </button>

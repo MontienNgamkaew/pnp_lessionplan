@@ -368,7 +368,7 @@ const TrainingAdminModal = ({ isOpen, onClose, initialTab = 'classes' }) => {
               <button
                 onClick={loadClasses}
                 disabled={!password.trim() || loading}
-                className="flex items-center gap-1 bg-purple-600 text-white px-3 py-2 rounded-lg font-medium hover:bg-purple-700 disabled:bg-gray-300 text-sm"
+                className="pnp-action-inline px-3 py-2 font-medium disabled:bg-gray-300 text-sm"
               >
                 {loading ? <Loader2 className="animate-spin" size={14} /> : <RefreshCw size={14} />}
                 โหลด
@@ -455,7 +455,7 @@ const TrainingAdminModal = ({ isOpen, onClose, initialTab = 'classes' }) => {
                   <button
                     onClick={handleCreate}
                     disabled={busy}
-                    className="flex items-center gap-1 bg-purple-600 text-white px-3 py-1.5 rounded text-xs hover:bg-purple-700 disabled:bg-gray-300"
+                    className="pnp-action-inline px-3 py-1.5 text-xs disabled:bg-gray-300"
                   >
                     {busy ? <Loader2 className="animate-spin" size={12} /> : <Save size={12} />}
                     สร้าง Class
@@ -584,7 +584,7 @@ const TrainingAdminModal = ({ isOpen, onClose, initialTab = 'classes' }) => {
                                     className={`text-[11px] px-2.5 py-1 rounded font-medium transition flex items-center gap-1 flex-shrink-0 ${
                                       unlocked
                                         ? 'bg-white border border-red-300 text-red-700 hover:bg-red-50'
-                                        : 'bg-green-600 text-white hover:bg-green-700 shadow-sm'
+                                        : 'bg-emerald-600 text-white hover:bg-emerald-700 shadow-sm'
                                     }`}
                                   >
                                     {unlocked ? (
@@ -630,7 +630,7 @@ const TrainingAdminModal = ({ isOpen, onClose, initialTab = 'classes' }) => {
                   <button
                     onClick={handlePoolSave}
                     disabled={busy || !poolKeysText.trim()}
-                    className="flex items-center gap-1 bg-indigo-600 text-white px-3 py-1.5 rounded text-sm hover:bg-indigo-700 disabled:bg-gray-300 disabled:cursor-not-allowed"
+                    className="pnp-action-inline px-3 py-1.5 text-sm disabled:bg-gray-300 disabled:cursor-not-allowed"
                   >
                     {busy ? <Loader2 className="animate-spin" size={14} /> : <Save size={14} />}
                     บันทึก Pool

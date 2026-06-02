@@ -141,7 +141,7 @@ const ApiKeyModal = ({ isOpen, onClose, onSave, currentProvider, currentKey }) =
           <button
             onClick={handleSave}
             disabled={!inputKey.trim()}
-            className="w-full bg-blue-600 text-white py-3 rounded-xl font-semibold hover:bg-blue-700 transition shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+            className="pnp-action-primary py-3 font-semibold disabled:opacity-50"
           >
             บันทึกและใช้งาน {meta.name}
           </button>

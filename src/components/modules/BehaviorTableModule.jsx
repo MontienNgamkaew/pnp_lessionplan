@@ -1002,7 +1002,7 @@ const BehaviorTableModule = ({
           </div>
           <button
             onClick={handleAutoCalc}
-            className="text-xs bg-indigo-600 text-white px-3 py-1.5 rounded-lg hover:bg-indigo-700 transition font-medium shadow-sm"
+            className="text-xs bg-blue-700 text-white px-3 py-1.5 rounded-lg hover:bg-blue-800 transition font-medium shadow-sm"
           >
             คำนวณอัตโนมัติ
           </button>
@@ -1245,7 +1245,7 @@ const BehaviorTableModule = ({
             คะแนนรวมต้องเท่ากับ {TOTAL_SCORE} คะแนน (ตอนนี้ {round2(grandTotal.total)} คะแนน) จึงจะไปขั้นตอนต่อไปได้
           </div>
         ) : (
-          <button onClick={() => onNavigate?.('activities')} className="bg-amber-600 text-white px-8 py-3 rounded-xl font-bold hover:bg-amber-700 shadow-lg flex items-center gap-2 mx-auto animate-bounce">
+          <button onClick={() => onNavigate?.('activities')} className="pnp-action-inline px-8 py-3 mx-auto">
             ไปขั้นตอนต่อไป: กิจกรรมการเรียนรู้ <ArrowRight size={20} />
           </button>
         )}

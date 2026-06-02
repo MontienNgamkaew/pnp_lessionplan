@@ -409,7 +409,7 @@ ${toolsSection}</div>`;
             {qbTotalSteps > 0 && (
               <div className="bg-purple-200 rounded-full h-2 overflow-hidden">
                 <div
-                  className="bg-purple-600 h-2 rounded-full transition-all duration-500 ease-out"
+                  className="bg-blue-700 h-2 rounded-full transition-all duration-500 ease-out"
                   style={{ width: `${Math.max(5, (qbStep / qbTotalSteps) * 100)}%` }}
                 />
               </div>
@@ -473,7 +473,7 @@ ${toolsSection}</div>`;
                   <div key={oi} className="border border-gray-200 rounded-xl overflow-hidden">
                     <div className="bg-gradient-to-r from-purple-50 to-indigo-50 border-b border-gray-200 px-5 py-3">
                       <div className="flex items-center gap-2 flex-wrap">
-                        <span className="bg-purple-600 text-white text-xs font-bold px-2.5 py-1 rounded-full">จุดประสงค์ {oi + 1}</span>
+                        <span className="bg-blue-700 text-white text-xs font-bold px-2.5 py-1 rounded-full">จุดประสงค์ {oi + 1}</span>
                         <span className={`text-xs font-bold px-2 py-0.5 rounded-full border ${
                           obj.bloomLevel === 'K1' ? 'bg-green-100 border-green-300 text-green-800' :
                           obj.bloomLevel === 'K2' ? 'bg-blue-100 border-blue-300 text-blue-800' :
@@ -1091,7 +1091,7 @@ ${renderListHtml(unit.assessmentTools)}
                 <div className="bg-white p-3 rounded-full shadow-sm mb-3 mx-auto w-fit text-indigo-600"><CheckCircle size={32} /></div>
                 <h3 className="text-indigo-800 font-bold text-lg mb-2">ข้อมูลพร้อมใช้งาน!</h3>
                 <p className="text-indigo-700 text-sm mb-4">รับข้อมูลอัตโนมัติครบถ้วน (หลักสูตร + จุดประสงค์ + สมรรถนะ + หลักฐาน + กิจกรรม)</p>
-                <button onClick={generate} disabled={loading} className="w-full bg-indigo-600 text-white py-3 rounded-xl font-bold hover:bg-indigo-700 shadow-lg flex items-center justify-center gap-2">
+                <button onClick={generate} disabled={loading} className="pnp-action-primary py-3">
                   {loading ? <Loader2 className="animate-spin" /> : <Sparkles size={20} />} สร้างการวัดและประเมินผลทันที
                 </button>
               </div>
@@ -1101,9 +1101,9 @@ ${renderListHtml(unit.assessmentTools)}
                 <div className="flex items-center justify-center mb-6">
                   {UPLOAD_STEPS.map((s, i) => (
                     <React.Fragment key={s.key}>
-                      {i > 0 && <div className={`w-10 h-1 mx-1 ${step >= s.step ? 'bg-blue-600' : 'bg-gray-200'}`} />}
-                      <div className={`flex items-center ${step >= s.step ? 'text-blue-600 font-bold' : 'text-gray-400'}`}>
-                        <div className={`w-8 h-8 rounded-full flex items-center justify-center border-2 ${step >= s.step ? 'border-blue-600 bg-blue-50' : 'border-gray-300'}`}>{s.step}</div>
+                      {i > 0 && <div className={`w-10 h-1 mx-1 rounded-full ${step >= s.step ? 'pnp-step-line-active' : 'pnp-step-line'}`} />}
+                      <div className={`flex items-center ${step >= s.step ? 'text-blue-700 font-bold' : 'text-slate-400'}`}>
+                        <div className={`${step >= s.step ? 'pnp-step-node pnp-step-node-active' : 'pnp-step-node'}`}>{s.step}</div>
                       </div>
                     </React.Fragment>
                   ))}
@@ -1118,9 +1118,9 @@ ${renderListHtml(unit.assessmentTools)}
                       <FileUploadZone file={hook.file} onUpload={hook.handleUpload} label={`คลิกเพื่อแนบไฟล์ ${s.label}`} height="h-64" />
                       {hook.file && (
                         s.step < UPLOAD_STEPS.length ? (
-                          <button onClick={() => setStep(s.step + 1)} className="w-full mt-4 bg-blue-600 text-white py-3 rounded-xl font-bold hover:bg-blue-700 flex items-center justify-center gap-2">ถัดไป <ChevronRight /></button>
+                          <button onClick={() => setStep(s.step + 1)} className="pnp-action-primary mt-4 py-3">ถัดไป <ChevronRight /></button>
                         ) : (
-                          <button onClick={generate} disabled={loading} className="w-full mt-4 bg-green-600 text-white py-3 rounded-xl font-bold hover:bg-green-700 flex items-center justify-center gap-2 shadow-lg disabled:opacity-70">
+                          <button onClick={generate} disabled={loading} className="pnp-action-success mt-4 py-3">
                             {loading ? <Loader2 className="animate-spin" /> : <Sparkles />} สร้างการวัดและประเมินผล
                           </button>
                         )
@@ -1364,7 +1364,7 @@ ${renderListHtml(unit.assessmentTools)}
                             <p className="text-[10px] text-purple-500 mt-0.5">เกณฑ์: {criterion} | วิธี: {method}</p>
                           </div>
                           <button onClick={() => generateQuestionBankForUnit(selectedUnitIdx)} disabled={qbLoading || !hasObjData}
-                            className="bg-purple-600 text-white px-3 py-1.5 rounded-xl font-bold text-xs hover:bg-purple-700 disabled:opacity-60 flex items-center gap-1.5 shadow">
+                            className="pnp-action-inline px-3 py-1.5 text-xs disabled:opacity-60">
                             {qbLoading ? <Loader2 size={13} className="animate-spin" /> : <Sparkles size={13} />}
                             {hasQb ? 'สร้างใหม่' : 'สร้างคลังข้อสอบ'}
                           </button>
@@ -1606,7 +1606,7 @@ ${renderListHtml(unit.assessmentTools)}
                             </>
                           )}
                           <button onClick={() => generateToolsForUnit(selectedUnitIdx)} disabled={toolsLoading}
-                            className="bg-indigo-600 text-white px-3 py-1.5 rounded-xl font-bold text-xs hover:bg-indigo-700 disabled:opacity-60 flex items-center gap-1.5 shadow">
+                            className="pnp-action-inline px-3 py-1.5 text-xs">
                             {toolsLoading ? <Loader2 size={13} className="animate-spin" /> : <Sparkles size={13} />}
                             {hasAnyTools ? 'สร้างใหม่' : 'สร้างเครื่องมือ'}
                           </button>
@@ -1689,7 +1689,7 @@ ${renderListHtml(unit.assessmentTools)}
             {/* Navigate to download page */}
             <div className="mt-8 text-center bg-gray-50 p-5 rounded-xl border border-gray-200">
               <button onClick={() => onNavigate?.('download')}
-                className="px-8 py-3 rounded-xl font-bold shadow-lg flex items-center gap-2 mx-auto bg-green-600 text-white hover:bg-green-700 transition">
+                className="pnp-action-inline-success px-8 py-3 mx-auto">
                 ไปหน้าดาวน์โหลด <ArrowRight size={20} />
               </button>
             </div>

@@ -344,9 +344,9 @@ ${renderConcept(unit.concept)}
           <div className="flex justify-between mt-6">
             <button onClick={() => setConceptStep((p) => Math.max(1, p - 1))} disabled={conceptStep === 1} className="px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-100 disabled:opacity-50 flex items-center gap-1"><ChevronLeft size={18} /> ย้อนกลับ</button>
             {conceptStep < 6 ? (
-              <button onClick={() => setConceptStep((p) => p + 1)} className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center gap-1 shadow-md">ถัดไป <ChevronRight size={18} /></button>
+              <button onClick={() => setConceptStep((p) => p + 1)} className="pnp-action-inline px-6 py-2">ถัดไป <ChevronRight size={18} /></button>
             ) : (
-              <button onClick={generate} disabled={loading} className="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 flex items-center gap-2 shadow-md">
+              <button onClick={generate} disabled={loading} className="pnp-action-inline-success px-6 py-2">
                 {loading ? <Loader2 className="animate-spin" /> : <Sparkles />} วิเคราะห์และสร้างสาระการเรียนรู้
               </button>
             )}
@@ -430,7 +430,7 @@ ${renderConcept(unit.concept)}
           {/* Next step navigation */}
           <div className="mt-8 text-center bg-gray-50 p-6 rounded-xl border border-gray-200">
             <h4 className="text-gray-700 font-bold mb-3">ขั้นตอนต่อไป</h4>
-            <button onClick={() => onNavigate('behavior_table')} className="bg-amber-600 text-white px-8 py-3 rounded-xl font-bold hover:bg-amber-700 shadow-lg flex items-center gap-2 mx-auto animate-bounce">
+            <button onClick={() => onNavigate('behavior_table')} className="pnp-action-inline px-8 py-3 mx-auto">
               ไปขั้นตอนต่อไป: ตารางวิเคราะห์พฤติกรรม <ArrowRight size={20} />
             </button>
           </div>

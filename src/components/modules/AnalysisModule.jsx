@@ -934,7 +934,7 @@ const AnalysisModule = ({
             <button onClick={handleExportCurriculum} className="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 shadow-sm flex items-center gap-1.5 text-sm">
               <FileText size={16} /> Download หลักสูตรรายวิชา
             </button>
-            <button onClick={callGeneration} disabled={loading} className="bg-green-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-700 shadow-lg flex items-center gap-2">
+            <button onClick={callGeneration} disabled={loading} className="pnp-action-inline-success px-6 py-2 font-semibold">
               {loading ? <Loader2 className="animate-spin" /> : <BookOpen />} สร้างโครงการสอน (Job-Based)
             </button>
           </div>
@@ -1001,7 +1001,7 @@ const AnalysisModule = ({
             <p><b>คำแนะนำ:</b> กดปุ่ม "แก้ไขตาราง" เพื่อแก้ไขชื่อหน่วย เพิ่ม/ลบหน่วย หรือปรับชั่วโมงได้ตามต้องการ<br />ข้อมูลเป็นเพียงตัวอย่างที่ AI สร้างขึ้น คุณครูสามารถปรับเปลี่ยนได้ตามความเหมาะสม</p>
           </div>
           <div className="mt-6 text-center">
-            <button onClick={() => onNavigate('learning_outcomes')} className="bg-green-600 text-white px-8 py-3 rounded-xl font-bold hover:bg-green-700 shadow-lg flex items-center gap-2 mx-auto animate-bounce">
+            <button onClick={() => onNavigate('learning_outcomes')} className="pnp-action-inline-success px-8 py-3 mx-auto">
               ไปขั้นตอนต่อไป: ผลลัพธ์การเรียนรู้ประจำหน่วย (Module 2) <ArrowRight size={20} />
             </button>
             <p className="text-xs text-gray-500 mt-2">ระบบจะส่งข้อมูลตารางหน่วยฯ และวิเคราะห์งานไปให้โดยอัตโนมัติ</p>

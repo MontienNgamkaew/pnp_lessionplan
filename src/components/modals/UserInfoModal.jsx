@@ -351,7 +351,7 @@ const UserInfoModal = ({ isOpen, onSubmit, onClose }) => {
               </Field>
 
               <button onClick={() => setStep(2)} disabled={!s1ok}
-                className="w-full bg-blue-600 text-white py-3 rounded-xl font-semibold hover:bg-blue-700 transition shadow-lg disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2">
+                className="pnp-action-primary py-3 font-semibold disabled:opacity-40">
                 ถัดไป <ChevronRight size={18} />
               </button>
             </div>
@@ -439,7 +439,7 @@ const UserInfoModal = ({ isOpen, onSubmit, onClose }) => {
                   <ChevronLeft size={18} /> ย้อนกลับ
                 </button>
                 <button onClick={() => { if (s2ok) onSubmit(buildSubmitPayload(form)); }} disabled={!s2ok}
-                  className="flex-[2] bg-green-600 text-white py-3 rounded-xl font-semibold hover:bg-green-700 transition shadow-lg disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2">
+                  className="flex-[2] rounded-lg bg-emerald-600 text-white py-3 font-semibold hover:bg-emerald-700 transition shadow-sm disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2">
                   <Download size={18} /> ยืนยันและดาวน์โหลด
                 </button>
               </div>

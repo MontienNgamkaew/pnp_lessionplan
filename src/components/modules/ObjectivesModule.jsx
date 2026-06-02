@@ -143,7 +143,7 @@ const ObjectivesModule = ({
                 <div className="bg-white p-3 rounded-full shadow-sm mb-3 mx-auto w-fit text-indigo-600"><CheckCircle size={32} /></div>
                 <h3 className="text-indigo-800 font-bold text-lg mb-2">ข้อมูลพร้อมใช้งาน!</h3>
                 <p className="text-indigo-700 text-sm mb-4">รับข้อมูลอัตโนมัติครบถ้วน (หลักสูตร + สมรรถนะ + ผลลัพธ์)</p>
-                <button onClick={generate} disabled={loading} className="w-full bg-indigo-600 text-white py-3 rounded-xl font-bold hover:bg-indigo-700 shadow-lg flex items-center justify-center gap-2">
+                <button onClick={generate} disabled={loading} className="pnp-action-primary py-3">
                   {loading ? <Loader2 className="animate-spin" /> : <Sparkles size={20} />} สร้างจุดประสงค์เชิงพฤติกรรมทันที
                 </button>
               </div>
@@ -154,9 +154,9 @@ const ObjectivesModule = ({
                 <div className="flex items-center justify-center mb-6">
                   {UPLOAD_STEPS.map((s, i) => (
                     <React.Fragment key={s.key}>
-                      {i > 0 && <div className={`w-16 h-1 mx-2 ${objStep >= s.step ? 'bg-blue-600' : 'bg-gray-200'}`} />}
-                      <div className={`flex items-center ${objStep >= s.step ? 'text-blue-600 font-bold' : 'text-gray-400'}`}>
-                        <div className={`w-8 h-8 rounded-full flex items-center justify-center border-2 ${objStep >= s.step ? 'border-blue-600 bg-blue-50' : 'border-gray-300'}`}>{s.step}</div>
+                      {i > 0 && <div className={`w-16 h-1 mx-2 rounded-full ${objStep >= s.step ? 'pnp-step-line-active' : 'pnp-step-line'}`} />}
+                      <div className={`flex items-center ${objStep >= s.step ? 'text-blue-700 font-bold' : 'text-slate-400'}`}>
+                        <div className={`${objStep >= s.step ? 'pnp-step-node pnp-step-node-active' : 'pnp-step-node'}`}>{s.step}</div>
                         <span className="ml-2">{s.label.split(' ')[0]}</span>
                       </div>
                     </React.Fragment>
@@ -175,9 +175,9 @@ const ObjectivesModule = ({
                       <FileUploadZone file={hook.file} onUpload={hook.handleUpload} label={`คลิกเพื่อแนบไฟล์ ${s.label}`} height="h-64" />
                       {hook.file && (
                         s.step < 3 ? (
-                          <button onClick={() => setObjStep(s.step + 1)} className="w-full mt-4 bg-blue-600 text-white py-3 rounded-xl font-bold hover:bg-blue-700 flex items-center justify-center gap-2">ถัดไป <ChevronRight /></button>
+                          <button onClick={() => setObjStep(s.step + 1)} className="pnp-action-primary mt-4 py-3">ถัดไป <ChevronRight /></button>
                         ) : (
-                          <button onClick={generate} disabled={loading} className="w-full mt-4 bg-green-600 text-white py-3 rounded-xl font-bold hover:bg-green-700 flex items-center justify-center gap-2 shadow-lg disabled:opacity-70">
+                          <button onClick={generate} disabled={loading} className="pnp-action-success mt-4 py-3">
                             {loading ? <Loader2 className="animate-spin" /> : <Sparkles />} สร้างจุดประสงค์เชิงพฤติกรรม
                           </button>
                         )
@@ -297,7 +297,7 @@ const ObjectivesModule = ({
 
             <div className="mt-8 text-center bg-gray-50 p-6 rounded-xl border border-gray-200">
               <h4 className="text-gray-700 font-bold mb-3">ขั้นตอนต่อไป</h4>
-              <button onClick={() => onNavigate('concept')} className="bg-amber-600 text-white px-8 py-3 rounded-xl font-bold hover:bg-amber-700 shadow-lg flex items-center gap-2 mx-auto animate-bounce">
+              <button onClick={() => onNavigate('concept')} className="pnp-action-inline px-8 py-3 mx-auto">
                 ไปขั้นตอนต่อไป: สาระการเรียนรู้ (Module 5) <ArrowRight size={20} />
               </button>
             </div>

@@ -151,7 +151,7 @@ const EvidenceModule = ({
                 <>
                   {!allDone && <p className="text-sm text-amber-600 mb-2">กรุณาสร้างหลักฐานให้ครบทุกหน่วย ({completedCount}/{totalCount})</p>}
                   <button onClick={() => onNavigate('assessment')} disabled={!allDone}
-                    className={`px-8 py-3 rounded-xl font-bold shadow-lg flex items-center gap-2 mx-auto transition ${allDone ? 'bg-amber-600 text-white hover:bg-amber-700' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}>
+                    className={`px-8 py-3 rounded-lg font-bold shadow-sm flex items-center gap-2 mx-auto transition ${allDone ? 'bg-blue-700 text-white hover:bg-blue-800' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}>
                     ไปขั้นตอนต่อไป: การวัดและประเมินผล <ArrowRight size={20} />
                   </button>
                 </>

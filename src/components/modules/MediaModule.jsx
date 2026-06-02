@@ -1275,7 +1275,7 @@ const MediaModule = ({
                                         </div>
                                         <div className="flex flex-wrap gap-1 shrink-0">
                                           <button onClick={() => createOperationSheet(selectedUnitIdx, idx)} disabled={isLoading || loading}
-                                            className={`flex items-center gap-1 text-[11px] px-2 py-1 rounded disabled:opacity-50 ${hasContent ? 'text-green-700 border border-green-300 hover:bg-green-50' : 'text-white bg-green-600 border border-green-700 hover:bg-green-700'}`}>
+                                            className={`flex items-center gap-1 text-[11px] px-2 py-1 rounded disabled:opacity-50 ${hasContent ? 'text-emerald-700 border border-emerald-300 hover:bg-emerald-50' : 'text-white bg-emerald-600 border border-emerald-700 hover:bg-emerald-700'}`}>
                                             {isLoading ? <Loader2 size={11} className="animate-spin" /> : <Sparkles size={11} />}
                                             {hasContent ? 'สร้างใหม่' : 'สร้าง'}
                                           </button>
@@ -1616,7 +1616,7 @@ const MediaModule = ({
                 <>
                   {!allDone && <p className="text-sm text-amber-600 mb-2">กรุณาสร้างสื่อให้ครบทุกหน่วย ({completedCount}/{totalCount})</p>}
                   <button onClick={() => onNavigate('evidence')} disabled={!allDone}
-                    className={`px-8 py-3 rounded-xl font-bold shadow-lg flex items-center gap-2 mx-auto transition ${allDone ? 'bg-amber-600 text-white hover:bg-amber-700' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}>
+                    className={`px-8 py-3 rounded-lg font-bold shadow-sm flex items-center gap-2 mx-auto transition ${allDone ? 'bg-blue-700 text-white hover:bg-blue-800' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}>
                     ไปขั้นตอนต่อไป: หลักฐานการเรียนรู้ <ArrowRight size={20} />
                   </button>
                 </>
@@ -1631,7 +1631,7 @@ const MediaModule = ({
             <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-6 text-center mb-4">
               <h3 className="text-indigo-800 font-bold text-lg mb-2">สร้างสื่อโดย AI</h3>
               <p className="text-indigo-700 text-sm mb-4">รับข้อมูลจากระบบอัตโนมัติ (หลักสูตร + กิจกรรม + สาระการเรียนรู้ + จุดประสงค์)</p>
-              <button onClick={generate} disabled={loading} className="w-full bg-indigo-600 text-white py-3 rounded-xl font-bold hover:bg-indigo-700 shadow-lg flex items-center justify-center gap-2">
+                          <button onClick={generate} disabled={loading} className="pnp-action-primary py-3">
                 {loading ? <Loader2 className="animate-spin" /> : <Sparkles size={20} />} สร้างสื่อและแหล่งการเรียนรู้
               </button>
             </div>
@@ -1643,8 +1643,8 @@ const MediaModule = ({
               <div className="flex items-center justify-center mb-6">
                 {UPLOAD_STEPS.map((s, i) => (
                   <React.Fragment key={s.key}>
-                    {i > 0 && <div className={`w-12 h-1 mx-1 ${step >= s.step ? 'bg-blue-600' : 'bg-gray-200'}`} />}
-                    <div className={`w-8 h-8 rounded-full flex items-center justify-center border-2 ${step >= s.step ? 'border-blue-600 bg-blue-50 text-blue-700 font-bold' : 'border-gray-300 text-gray-400'}`}>{s.step}</div>
+                    {i > 0 && <div className={`w-12 h-1 mx-1 rounded-full ${step >= s.step ? 'pnp-step-line-active' : 'pnp-step-line'}`} />}
+                    <div className={`${step >= s.step ? 'pnp-step-node pnp-step-node-active' : 'pnp-step-node'}`}>{s.step}</div>
                   </React.Fragment>
                 ))}
               </div>
@@ -1658,8 +1658,8 @@ const MediaModule = ({
                     <FileUploadZone file={hook.file} onUpload={hook.handleUpload} label={`คลิกเพื่อแนบไฟล์ ${s.label}`} height="h-64" />
                     {hook.file && (
                       s.step < UPLOAD_STEPS.length
-                        ? <button onClick={() => setStep(s.step + 1)} className="w-full mt-4 bg-blue-600 text-white py-3 rounded-xl font-bold hover:bg-blue-700 flex items-center justify-center gap-2">ถัดไป <ChevronRight /></button>
-                        : <button onClick={generate} disabled={loading} className="w-full mt-4 bg-green-600 text-white py-3 rounded-xl font-bold hover:bg-green-700 flex items-center justify-center gap-2 shadow-lg disabled:opacity-70">
+                        ? <button onClick={() => setStep(s.step + 1)} className="pnp-action-primary mt-4 py-3">ถัดไป <ChevronRight /></button>
+                        : <button onClick={generate} disabled={loading} className="pnp-action-success mt-4 py-3">
                             {loading ? <Loader2 className="animate-spin" /> : <Sparkles />} สร้างสื่อและแหล่งการเรียนรู้
                           </button>
                     )}

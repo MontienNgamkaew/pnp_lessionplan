@@ -1215,7 +1215,7 @@ ${i.subs.map((s) => `   ${s.id}) ${s.text}`).join('\n')}`).join('\n\n')}
         <button
           onClick={() => setWizardPage(2)}
           disabled={!page1Valid}
-          className="bg-indigo-600 text-white px-8 py-3 rounded-xl font-bold hover:bg-indigo-700 disabled:opacity-50 flex items-center gap-2 shadow-lg"
+          className="pnp-action-inline px-8 py-3"
         >
           ถัดไป: เลือกรูปแบบการสอน <ArrowRight size={18} />
         </button>
@@ -1339,7 +1339,7 @@ ${i.subs.map((s) => `   ${s.id}) ${s.text}`).join('\n')}`).join('\n\n')}
       <button
         onClick={generate}
         disabled={loading || !page2Valid}
-        className="w-full bg-indigo-600 text-white py-4 rounded-xl font-bold text-lg hover:bg-indigo-700 disabled:opacity-60 shadow-xl flex items-center justify-center gap-3"
+        className="pnp-action-primary py-4 text-lg"
       >
         {loading ? <><Loader2 className="animate-spin" /> กำลังออกแบบกิจกรรม...</> : <><Sparkles size={22} /> ออกแบบกิจกรรมการเรียนรู้</>}
       </button>
@@ -1746,7 +1746,7 @@ ${i.subs.map((s) => `   ${s.id}) ${s.text}`).join('\n')}`).join('\n\n')}
                   </p>
                 )}
                 <button onClick={() => onNavigate('media')} disabled={!allDone}
-                  className={`px-8 py-3 rounded-xl font-bold shadow-lg flex items-center gap-2 mx-auto transition ${allDone ? 'bg-amber-600 text-white hover:bg-amber-700' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}>
+                  className={`px-8 py-3 rounded-lg font-bold shadow-sm flex items-center gap-2 mx-auto transition ${allDone ? 'bg-blue-700 text-white hover:bg-blue-800' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}>
                   ไปขั้นตอนต่อไป: สื่อและแหล่งการเรียนรู้ <ArrowRight size={20} />
                 </button>
               </>
@@ -1985,7 +1985,7 @@ const QuestionBankSection = ({ unitIdx, selUnit, formData, objResults, qbLoading
               </>
             )}
             <button onClick={() => generateQuestionBankForUnit(unitIdx)} disabled={qbLoading || !objResults}
-              className="bg-purple-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:bg-purple-700 disabled:opacity-60 flex items-center gap-2 shadow-lg">
+              className="pnp-action-inline px-4 py-2 text-sm disabled:opacity-60">
               {qbLoading ? <Loader2 size={16} className="animate-spin" /> : <Sparkles size={16} />}
               {hasQb ? 'สร้างใหม่' : 'สร้างแบบทดสอบ'}
             </button>
@@ -2001,7 +2001,7 @@ const QuestionBankSection = ({ unitIdx, selUnit, formData, objResults, qbLoading
           </div>
           {qbTotalSteps > 0 && (
             <div className="bg-purple-200 rounded-full h-2 overflow-hidden">
-              <div className="bg-purple-600 h-2 rounded-full transition-all duration-500 ease-out" style={{ width: `${Math.max(5, (qbStep / qbTotalSteps) * 100)}%` }} />
+              <div className="bg-blue-700 h-2 rounded-full transition-all duration-500 ease-out" style={{ width: `${Math.max(5, (qbStep / qbTotalSteps) * 100)}%` }} />
             </div>
           )}
           {qbTotalSteps > 0 && (
@@ -2049,7 +2049,7 @@ const QuestionBankSection = ({ unitIdx, selUnit, formData, objResults, qbLoading
                 <div key={oi} className="border border-gray-200 rounded-xl overflow-hidden">
                   <div className="bg-gradient-to-r from-purple-50 to-indigo-50 border-b border-gray-200 px-5 py-3">
                     <div className="flex items-center gap-2 flex-wrap">
-                      <span className="bg-purple-600 text-white text-xs font-bold px-2.5 py-1 rounded-full">จุดประสงค์ {oi + 1}</span>
+                      <span className="bg-blue-700 text-white text-xs font-bold px-2.5 py-1 rounded-full">จุดประสงค์ {oi + 1}</span>
                       <span className={`text-xs font-bold px-2 py-0.5 rounded-full border ${
                         obj.bloomLevel === 'K1' ? 'bg-green-100 border-green-300 text-green-800' :
                         obj.bloomLevel === 'K2' ? 'bg-blue-100 border-blue-300 text-blue-800' :

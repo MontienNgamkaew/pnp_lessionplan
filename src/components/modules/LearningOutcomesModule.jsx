@@ -100,7 +100,7 @@ const LearningOutcomesModule = ({
               <div className="bg-white p-3 rounded-full shadow-sm mb-3 mx-auto w-fit text-green-600"><CheckCircle size={32} /></div>
               <h3 className="text-green-800 font-bold text-lg mb-2">ข้อมูลพร้อมใช้งาน!</h3>
               <p className="text-green-700 text-sm mb-4">รับข้อมูลอัตโนมัติจาก Module 1</p>
-              <button onClick={generate} disabled={loading} className="w-full bg-green-600 text-white py-3 rounded-xl font-bold hover:bg-green-700 shadow-lg flex items-center justify-center gap-2">
+              <button onClick={generate} disabled={loading} className="pnp-action-success py-3">
                 {loading ? <Loader2 className="animate-spin" /> : <Sparkles size={20} />} สร้างผลลัพธ์การเรียนรู้ทันที
               </button>
             </div>
@@ -109,7 +109,7 @@ const LearningOutcomesModule = ({
               <div className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center mb-4"><p className="text-sm text-gray-500 font-medium">Mode 2: Upload ข้อมูลด้วยตนเอง</p></div>
               <FileUploadZone file={unitsFile} onUpload={handleUnitsUpload} label="1. แนบตารางหน่วยการเรียนรู้" height="h-32" />
               <FileUploadZone file={analysisFile} onUpload={handleAnalysisUpload} label="2. แนบตารางวิเคราะห์งาน" borderColor="border-purple-300" bgColor="bg-purple-50" hoverBg="hover:bg-purple-100" height="h-32" />
-              <button onClick={generate} disabled={loading || !unitsFile || !analysisFile} className={`w-full py-2.5 rounded-xl font-semibold transition shadow-md flex items-center justify-center gap-2 ${!unitsFile || !analysisFile ? 'bg-gray-300 text-gray-500 cursor-not-allowed' : 'bg-blue-600 text-white hover:bg-blue-700'}`}>
+              <button onClick={generate} disabled={loading || !unitsFile || !analysisFile} className={`w-full py-2.5 rounded-lg font-semibold transition shadow-sm flex items-center justify-center gap-2 ${!unitsFile || !analysisFile ? 'bg-gray-300 text-gray-500 cursor-not-allowed' : 'bg-blue-700 text-white hover:bg-blue-800'}`}>
                 {loading ? <Loader2 className="animate-spin" /> : <Sparkles size={18} />} สร้างผลลัพธ์การเรียนรู้
               </button>
             </>
@@ -157,7 +157,7 @@ const LearningOutcomesModule = ({
               </div>
               <div className="mt-8 text-center bg-gray-50 p-6 rounded-xl border border-gray-200">
                 <h4 className="text-gray-700 font-bold mb-3">ขั้นตอนต่อไป</h4>
-                <button onClick={() => onNavigate('competencies')} className="bg-purple-600 text-white px-8 py-3 rounded-xl font-bold hover:bg-purple-700 shadow-lg flex items-center gap-2 mx-auto animate-bounce">
+                <button onClick={() => onNavigate('competencies')} className="pnp-action-inline px-8 py-3 mx-auto">
                   ไปขั้นตอนต่อไป: สมรรถนะประจำหน่วย (Module 3) <ArrowRight size={20} />
                 </button>
               </div>
