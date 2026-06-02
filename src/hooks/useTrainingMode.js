@@ -156,6 +156,7 @@ export function useTrainingMode() {
   // Helper: ตรวจว่า module เปิดอยู่ไหม
   const isModuleEnabled = useCallback((moduleName) => {
     if (!session) return true; // ไม่อยู่ใน training → ใช้ปกติ
+    if (moduleName === 'admin') return true; // Admin ต้องเข้าได้เสมอเพื่อจัดการระบบ
     return (session.modules || []).includes(moduleName);
   }, [session]);
 
