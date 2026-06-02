@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { LayoutDashboard, Eye, Download, Sparkles, Users, Lock, Loader2, RefreshCw, Search, ChevronDown, ChevronUp, ChevronRight, BarChart3, MapPin, Building2, GraduationCap, Calendar, Mail, FileText, TrendingUp, LogOut, Filter, User, Phone, BookOpen, Briefcase, X } from 'lucide-react';
 import { printToPdf, createWordDoc } from '../../utils/exportHelpers';
+import { ADMIN_PASSWORD } from '../../constants/adminAuth';
 
-const ADMIN_CODE = '112233';
 const SHEET_URL = 'https://script.google.com/macros/s/AKfycbyxjQPVEx1FGPOvkCZ43V4STKKhY6VCgodo-A25ykPGiCWaIJGxDe8IvWBvNXcP7GLz/exec';
 
 const THAILAND_PROVINCES_BY_REGION = {
@@ -54,7 +54,7 @@ const AdminDashboard = () => {
   useEffect(() => { setCurrentPage(1); }, [searchTerm, filterRegion, filterProvince, filterPosition, filterAffiliation, filterDateFrom, filterDateTo]);
 
   const handleLogin = () => {
-    if (code === ADMIN_CODE) {
+    if (code.trim() === ADMIN_PASSWORD) {
       setIsLoggedIn(true);
       setCodeError('');
       fetchData();

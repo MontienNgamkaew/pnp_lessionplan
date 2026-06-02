@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { BookOpen, ChevronRight, Facebook, Youtube, Globe, Instagram, Eye, Download, Trash2, Save, Upload } from 'lucide-react';
 import { MENU_ITEMS } from '../../constants/menuItems.jsx';
 import { getUsageStats, fetchRealStats, trackVisit } from '../../utils/usageStats';
+import { ADMIN_PASSWORD } from '../../constants/adminAuth';
 
 const TikTokIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -17,14 +18,12 @@ const StatItem = ({ icon: Icon, label, value, color }) => (
   </div>
 );
 
-const ADMIN_GATE_PASSWORD = '112233';
-
 const Sidebar = ({ activeMenu, setActiveMenu, onMobileClose, moduleStatus, onExportProject, onImportProject, onSecretBatchTrigger, onOpenAdminPool }) => {
 
   const handleAdminAccess = () => {
     const input = window.prompt('🔐 รหัสผ่าน Admin');
     if (input === null) return; // user cancelled
-    if (input.trim() === ADMIN_GATE_PASSWORD) {
+    if (input.trim() === ADMIN_PASSWORD) {
       onOpenAdminPool?.();
     } else if (input.trim() !== '') {
       alert('❌ รหัสผ่านไม่ถูกต้อง');

@@ -9,6 +9,7 @@ import { SYSTEM_PROMPT_ASSESSMENT, SYSTEM_PROMPT_ASSESSMENT_TOOLS, SYSTEM_PROMPT
 import { printToPdf, createWordDoc } from '../../utils/exportHelpers';
 import { generateDocxFromTemplate, buildTemplateData } from '../../utils/docxTemplateExport';
 import { parseUnitTable } from '../../utils/markdownTable';
+import { ADMIN_PASSWORD, ADMIN_VERIFIED_KEY } from '../../constants/adminAuth';
 
 const UPLOAD_STEPS = [
   { key: 'syllabus', label: 'หลักสูตรรายวิชา', step: 1 },
@@ -783,17 +784,15 @@ ${affectiveObjs.map((o, i) => `${i + 1}. ${o}`).join('\n')}
 
   // ── Bulk Generate (สร้างทั้งหมดในหน่วยเดียว) ──────────────────────────────
   // ต้องผ่านการยืนยันรหัสผู้ดูแลระบบก่อน — share key กับ MediaModule
-  const ADMIN_CODE = '1111111111';
-  const ADMIN_KEY = 'lp_media_admin_verified';
   const [bulkLoadingUnit, setBulkLoadingUnit] = useState(null);
   const [bulkProgress, setBulkProgress] = useState({ current: 0, total: 0 });
 
   const verifyAdminCode = () => {
-    if (localStorage.getItem(ADMIN_KEY) === '1') return true;
+    if (localStorage.getItem(ADMIN_VERIFIED_KEY) === '1') return true;
     const input = window.prompt('🔒 กรุณาใส่รหัสผู้ดูแลระบบเพื่อใช้งาน "สร้างทั้งหมด"');
     if (input === null) return false;
-    if (input.trim() === ADMIN_CODE) {
-      localStorage.setItem(ADMIN_KEY, '1');
+    if (input.trim() === ADMIN_PASSWORD) {
+      localStorage.setItem(ADMIN_VERIFIED_KEY, '1');
       return true;
     }
     onError?.('รหัสผู้ดูแลระบบไม่ถูกต้อง');
@@ -1231,9 +1230,9 @@ ${renderListHtml(unit.assessmentTools)}
                                       ? 'bg-gray-100 text-gray-400 border-gray-200 cursor-not-allowed'
                                       : 'bg-gradient-to-r from-purple-500 to-pink-500 text-white border-purple-600 hover:from-purple-600 hover:to-pink-600 hover:shadow-md'
                                   }`}
-                                  title={localStorage.getItem(ADMIN_KEY) === '1' ? 'สร้างทุกประเภทที่ขาดในหน่วยนี้' : 'ต้องใส่รหัสผู้ดูแลระบบก่อน'}
+                                  title={localStorage.getItem(ADMIN_VERIFIED_KEY) === '1' ? 'สร้างทุกประเภทที่ขาดในหน่วยนี้' : 'ต้องใส่รหัสผู้ดูแลระบบก่อน'}
                                 >
-                                  {localStorage.getItem(ADMIN_KEY) === '1' ? <Zap size={12} /> : <Lock size={12} />}
+                                  {localStorage.getItem(ADMIN_VERIFIED_KEY) === '1' ? <Zap size={12} /> : <Lock size={12} />}
                                   สร้างทั้งหมด
                                 </button>
                               )}

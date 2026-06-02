@@ -31,6 +31,7 @@ import BehaviorTableModule from './components/modules/BehaviorTableModule';
 import { getStoredProvider, setStoredProvider, getStoredApiKey, setStoredApiKey, useAiApi } from './hooks/useAiApi';
 import { getProviderMeta, DEFAULT_PROVIDER } from './providers/index';
 import { SYSTEM_PROMPT_LO, SYSTEM_PROMPT_COMPETENCY, SYSTEM_PROMPT_OBJECTIVES, SYSTEM_PROMPT_CONCEPT } from './constants/prompts';
+import { ADMIN_PASSWORD, ADMIN_VERIFIED_KEY } from './constants/adminAuth';
 
 const EMPTY_FORM = {
   courseCode: '', courseName: '', credits: '', ratio: '',
@@ -301,8 +302,6 @@ function AuthenticatedApp() {
   // ── Secret Batch Trigger: รัน 4 modules แรกอัตโนมัติ (LO → Comp → Obj → Concept) ──
   const { callApi: batchCallApi } = useAiApi(providerId, apiKey);
   const [batchProgress, setBatchProgress] = useState({ active: false, current: 0, total: 4, label: '', error: null });
-  const ADMIN_KEY = 'lp_media_admin_verified'; // share key with MediaModule
-
   const runBatchEarlyModules = async () => {
     // Pre-condition check
     if (!unitDivisionPlan || !generatedPlan) {
@@ -317,14 +316,14 @@ function AuthenticatedApp() {
     }
 
     // Admin code check (share with MediaModule)
-    if (localStorage.getItem(ADMIN_KEY) !== '1') {
+    if (localStorage.getItem(ADMIN_VERIFIED_KEY) !== '1') {
       const code = window.prompt('🔒 ปุ่มลับ — กรุณาใส่รหัสผู้ดูแลระบบ');
       if (code === null) return;
-      if (code.trim() !== '1111111111') {
+      if (code.trim() !== ADMIN_PASSWORD) {
         alert('❌ รหัสผู้ดูแลระบบไม่ถูกต้อง');
         return;
       }
-      localStorage.setItem(ADMIN_KEY, '1');
+      localStorage.setItem(ADMIN_VERIFIED_KEY, '1');
     }
 
     setBatchProgress({ active: true, current: 0, total: 4, label: 'เริ่มต้น...', error: null });

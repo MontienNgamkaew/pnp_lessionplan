@@ -13,7 +13,7 @@ const KV_KEY_NAME = 'thaillm_admin_key';
 const USAGE_KEY_PREFIX = 'usage:';
 const ERRORS_KEY = 'recent_errors';
 const MAX_ERRORS = 10;
-const DEFAULT_ADMIN_PASSWORD = '1111111111';
+const DEFAULT_ADMIN_PASSWORD = 'a1d9GH10%';
 
 const ALLOWED_ORIGINS = [
   'https://plan.kruarm.net',
