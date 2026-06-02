@@ -16,7 +16,7 @@ const TrainingBanner = ({ session, onLeave }) => {
     : `${minutesLeft}น`;
 
   return (
-    <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-4 py-2 flex items-center justify-between gap-3 sticky top-0 z-40 shadow-md">
+    <div className="bg-gradient-to-r from-slate-950 to-blue-800 text-white px-4 py-2 flex items-center justify-between gap-3 sticky top-0 z-40 shadow-md">
       <div className="flex items-center gap-2 flex-1 min-w-0">
         <GraduationCap size={18} className="flex-shrink-0" />
         <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2 min-w-0">
@@ -56,10 +56,10 @@ export const ModuleGate = ({ enabled, children, moduleName }) => {
     <div className="relative">
       <div className="opacity-30 pointer-events-none select-none">{children}</div>
       <div className="absolute inset-0 flex items-center justify-center bg-white/80 backdrop-blur-sm z-10">
-        <div className="bg-white border-2 border-purple-300 rounded-2xl shadow-xl p-6 max-w-md text-center">
+        <div className="pnp-shell-card rounded-xl p-6 max-w-md text-center">
           <div className="text-4xl mb-3">🔒</div>
-          <h3 className="text-lg font-bold text-purple-800 mb-2">รอ Instructor เปิด Module</h3>
-          <p className="text-sm text-gray-600">
+          <h3 className="text-lg font-bold text-slate-900 mb-2">รอ Instructor เปิด Module</h3>
+          <p className="text-sm text-slate-600">
             ตอนนี้ instructor ยังไม่เปิด Module นี้สำหรับคลาส<br />
             ระบบจะอัพเดทอัตโนมัติเมื่อ instructor เปิด (ภายใน 10 วินาที)
           </p>

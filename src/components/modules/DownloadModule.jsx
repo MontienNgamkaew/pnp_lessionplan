@@ -7,7 +7,7 @@ const DownloadModule = ({
   exportSummaryPdf,
 }) => {
   return (
-    <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 min-h-[80vh]">
+    <div className="pnp-shell-card rounded-xl p-5 md:p-6 min-h-[80vh]">
       <div className="max-w-2xl mx-auto text-center py-8">
         <div className="bg-green-100 p-4 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
           <CheckCircle className="text-green-600 w-10 h-10" />

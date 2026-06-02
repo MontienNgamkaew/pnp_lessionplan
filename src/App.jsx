@@ -435,7 +435,7 @@ function AuthenticatedApp() {
     switch (activeMenu) {
       case 'analysis':
         return (
-          <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 min-h-[80vh]">
+          <div className="pnp-shell-card rounded-xl p-5 md:p-6 min-h-[80vh]">
             <div className="mb-6 border-b border-gray-100 pb-4">
               <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
                 <TableIcon className="text-blue-600" /> วิเคราะห์งาน/หน่วยการเรียนรู้
@@ -589,7 +589,7 @@ function AuthenticatedApp() {
       case 'download':
         // 🚫 ปิดชั่วคราว — รอคำสั่งให้เปิด
         return (
-          <div className="bg-white rounded-2xl shadow-xl p-8 min-h-[60vh] flex flex-col items-center justify-center text-center">
+          <div className="pnp-shell-card rounded-xl p-8 min-h-[60vh] flex flex-col items-center justify-center text-center">
             <div className="bg-gray-100 rounded-full p-5 mb-4">
               <Menu size={32} className="text-gray-400" />
             </div>

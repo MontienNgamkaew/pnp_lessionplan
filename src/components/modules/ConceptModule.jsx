@@ -307,7 +307,7 @@ ${renderConcept(unit.concept)}
   const exportSummaryPdf = () => dl(_doExportSummaryPdf, _metaSummary);
 
   return (
-    <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 min-h-[80vh]">
+    <div className="pnp-shell-card rounded-xl p-5 md:p-6 min-h-[80vh]">
       <div className="mb-6 border-b border-gray-100 pb-4">
         <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2"><Lightbulb className="text-blue-600" /> สาระการเรียนรู้ (Key Concepts)</h2>
         <p className="text-gray-500 text-sm mt-1">สรุปสาระการเรียนรู้ของแต่ละหน่วยจากข้อมูลที่วิเคราะห์มาทั้งหมด</p>

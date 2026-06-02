@@ -119,7 +119,7 @@ const AdminDashboard = () => {
   // Login screen
   if (!isLoggedIn) {
     return (
-      <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 min-h-[80vh] flex items-center justify-center">
+      <div className="pnp-shell-card rounded-xl p-6 md:p-8 min-h-[80vh] flex items-center justify-center">
         <div className="w-full max-w-sm">
           <div className="text-center mb-8">
             <div className="bg-blue-100 p-4 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
@@ -157,7 +157,7 @@ const AdminDashboard = () => {
   // Loading
   if (loading && !data) {
     return (
-      <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 min-h-[80vh] flex items-center justify-center">
+      <div className="pnp-shell-card rounded-xl p-6 md:p-8 min-h-[80vh] flex items-center justify-center">
         <div className="text-center">
           <Loader2 className="w-12 h-12 animate-spin text-blue-500 mx-auto mb-4" />
           <p className="text-gray-600">กำลังโหลดข้อมูล Dashboard...</p>
@@ -373,7 +373,7 @@ const AdminDashboard = () => {
   const maxProvinceCount = Math.max(...Object.values(provinceCounts), 1);
 
   return (
-    <div className="bg-white rounded-2xl shadow-xl p-4 md:p-6 min-h-[80vh]">
+    <div className="pnp-shell-card rounded-xl p-4 md:p-6 min-h-[80vh]">
       {/* Header */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-6 gap-3">
         <div>

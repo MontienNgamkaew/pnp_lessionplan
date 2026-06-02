@@ -18,9 +18,9 @@ const FileUploadZone = ({
   onUpload,
   accept = 'image/*,application/pdf,.doc,.docx',
   label = 'คลิกเพื่อเลือกไฟล์',
-  borderColor = 'border-blue-300',
-  bgColor = 'bg-blue-50',
-  hoverBg = 'hover:bg-blue-100',
+  borderColor = 'border-blue-200',
+  bgColor = 'bg-slate-50',
+  hoverBg = 'hover:bg-blue-50',
   className = '',
   height = 'h-48',
 }) => {
@@ -49,17 +49,20 @@ const FileUploadZone = ({
               className="max-h-32 rounded-lg shadow-md mb-2 mx-auto"
             />
           ) : (
-            <div className="bg-white p-3 rounded-full shadow-sm mb-2 mx-auto w-fit">
+            <div className="bg-white border border-slate-200 p-3 rounded-xl shadow-sm mb-2 mx-auto w-fit">
               {iconForType(file.type)}
             </div>
           )}
-          <p className="text-sm font-bold text-gray-700 break-all px-2">{file.name}</p>
-          <p className="text-xs text-green-600 mt-1">พร้อมใช้งาน</p>
+          <p className="text-sm font-bold text-slate-800 break-all px-2">{file.name}</p>
+          <p className="text-xs text-emerald-600 mt-1 font-semibold">พร้อมใช้งาน</p>
         </div>
       ) : (
         <div className="text-center">
-          <Upload className="w-10 h-10 text-gray-400 mx-auto mb-2" />
-          <p className="text-sm font-medium text-gray-600">{label}</p>
+          <div className="mx-auto mb-2 h-11 w-11 rounded-xl bg-white border border-slate-200 flex items-center justify-center shadow-sm">
+            <Upload className="w-5 h-5 text-blue-600" />
+          </div>
+          <p className="text-sm font-semibold text-slate-700">{label}</p>
+          <p className="text-xs text-slate-400 mt-1">รองรับรูปภาพ PDF และ Word</p>
         </div>
       )}
     </div>

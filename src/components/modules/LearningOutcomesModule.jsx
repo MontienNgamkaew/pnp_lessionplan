@@ -86,7 +86,7 @@ const LearningOutcomesModule = ({
   const exportPdf = () => dl(_doExportPdf, _meta);
 
   return (
-    <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 min-h-[80vh]">
+    <div className="pnp-shell-card rounded-xl p-5 md:p-6 min-h-[80vh]">
       <div className="mb-6 border-b border-gray-100 pb-4">
         <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2"><Target className="text-blue-600" /> ผลลัพธ์การเรียนรู้ประจำหน่วยการเรียน</h2>
         <p className="text-gray-500 text-sm mt-1">ผลลัพธ์นอกห้องเรียนที่เกิดจากการนำความรู้ ทักษะ ประสบการณ์ในห้องเรียน ไปประยุกต์ใช้ในชีวิตประจำวัน หรืองานอาชีพ</p>
