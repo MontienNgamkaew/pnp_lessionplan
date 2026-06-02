@@ -90,18 +90,18 @@ const PdfSplitterModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4 backdrop-blur-sm">
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md p-6 relative">
+    <div className="fixed inset-0 bg-slate-950/60 z-50 flex items-center justify-center p-4 backdrop-blur-sm">
+      <div className="pnp-shell-card rounded-xl w-full max-w-md p-6 relative">
         <button onClick={onClose} className="absolute top-4 right-4 text-gray-400 hover:text-gray-600">
           <X size={24} />
         </button>
 
         <div className="flex items-center gap-3 mb-6">
-          <div className="bg-pink-100 p-3 rounded-full">
-            <Scissors className="w-6 h-6 text-pink-600" />
+          <div className="bg-sky-50 border border-sky-200 p-3 rounded-xl">
+            <Scissors className="w-6 h-6 text-sky-600" />
           </div>
           <div>
-            <h3 className="text-xl font-bold text-gray-900">เครื่องมือตัดไฟล์ PDF</h3>
+            <h3 className="text-xl font-bold text-slate-900">เครื่องมือตัดไฟล์ PDF</h3>
             <p className="text-xs text-gray-500">เลือกเฉพาะหน้าที่ต้องการใช้งาน</p>
           </div>
         </div>
@@ -113,7 +113,7 @@ const PdfSplitterModal = ({ isOpen, onClose }) => {
           </div>
         ) : (
           <div className="space-y-4">
-            <div className="border-2 border-dashed border-gray-300 rounded-xl p-4 text-center bg-gray-50">
+            <div className="border-2 border-dashed border-blue-200 rounded-xl p-4 text-center bg-slate-50">
               <input type="file" accept="application/pdf" onChange={handleFileChange} className="hidden" id="pdf-split-upload" />
               <label htmlFor="pdf-split-upload" className="cursor-pointer block">
                 {file ? (
@@ -143,7 +143,7 @@ const PdfSplitterModal = ({ isOpen, onClose }) => {
                 placeholder="เช่น 1, 3-5, 8"
                 value={pageRange}
                 onChange={(e) => setPageRange(e.target.value)}
-                className="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500"
+                className="w-full p-2 rounded-lg pnp-field"
               />
               <p className="text-xs text-gray-500 mt-1">ใช้เครื่องหมายจุลภาค (,) คั่น หรือใช้ขีด (-) สำหรับช่วง</p>
             </div>
@@ -151,7 +151,7 @@ const PdfSplitterModal = ({ isOpen, onClose }) => {
             <button
               onClick={handleSplit}
               disabled={isProcessing || !file || !pageRange}
-              className="w-full bg-pink-600 text-white py-2.5 rounded-xl font-semibold hover:bg-pink-700 transition shadow-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full pnp-btn-primary py-2.5 rounded-lg font-semibold transition flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isProcessing ? <Loader2 className="animate-spin" /> : <Download size={20} />}
               ตัดไฟล์และดาวน์โหลด

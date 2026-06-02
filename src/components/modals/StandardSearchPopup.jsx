@@ -9,10 +9,10 @@ const StandardSearchPopup = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4 backdrop-blur-sm">
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-4xl h-[85vh] flex flex-col relative overflow-hidden">
+    <div className="fixed inset-0 bg-slate-950/60 z-50 flex items-center justify-center p-4 backdrop-blur-sm">
+      <div className="pnp-shell-card rounded-xl w-full max-w-4xl h-[85vh] flex flex-col relative overflow-hidden">
         {/* Header */}
-        <div className="bg-blue-700 px-4 py-2.5 flex items-center justify-between text-white flex-shrink-0">
+        <div className="bg-slate-950 px-4 py-2.5 flex items-center justify-between text-white flex-shrink-0">
           <span className="font-bold text-sm">ค้นหามาตรฐานอาชีพ</span>
           <div className="flex items-center gap-2">
             <a

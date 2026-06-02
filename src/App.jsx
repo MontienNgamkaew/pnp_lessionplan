@@ -662,13 +662,11 @@ function AuthenticatedApp() {
 
       {/* ── Secret Batch Run Modal ─────────────────────────────────────── */}
       {batchProgress.active && (
-        <div className="fixed inset-0 bg-black/70 z-[60] flex items-center justify-center p-4 backdrop-blur-sm">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 relative overflow-hidden">
-            <div className="absolute -top-20 -right-20 w-64 h-64 bg-purple-200 rounded-full opacity-30 blur-3xl" />
-            <div className="absolute -bottom-20 -left-20 w-64 h-64 bg-pink-200 rounded-full opacity-30 blur-3xl" />
+        <div className="fixed inset-0 bg-slate-950/70 z-[60] flex items-center justify-center p-4 backdrop-blur-sm">
+          <div className="pnp-shell-card rounded-xl max-w-md w-full p-8 relative overflow-hidden">
             <div className="relative z-10">
               <div className="flex items-center gap-3 mb-2">
-                <div className="bg-gradient-to-r from-purple-500 to-pink-500 p-3 rounded-xl shadow-lg">
+                <div className="bg-gradient-to-br from-blue-700 to-sky-500 p-3 rounded-xl shadow-lg shadow-blue-700/20">
                   <BookOpen className="text-white" size={24} />
                 </div>
                 <div>
@@ -680,21 +678,21 @@ function AuthenticatedApp() {
               <div className="my-5">
                 <div className="flex justify-between items-center mb-2">
                   <span className="text-sm text-gray-600">ขั้นตอนที่</span>
-                  <span className="font-bold text-purple-700">{batchProgress.current} / {batchProgress.total}</span>
+                  <span className="font-bold text-blue-700">{batchProgress.current} / {batchProgress.total}</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
                   <div
-                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transition-all duration-500"
+                    className="h-full bg-gradient-to-r from-blue-700 to-sky-500 transition-all duration-500"
                     style={{ width: `${(batchProgress.current / batchProgress.total) * 100}%` }}
                   />
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-purple-50 to-pink-50 border border-purple-200 rounded-xl p-4 flex items-center gap-3">
-                <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-purple-600" />
+              <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 flex items-center gap-3">
+                <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-700" />
                 <div>
                   <div className="text-xs text-gray-500">กำลังสร้าง</div>
-                  <div className="font-bold text-purple-900">{batchProgress.label}</div>
+                  <div className="font-bold text-blue-950">{batchProgress.label}</div>
                 </div>
               </div>
 
@@ -704,7 +702,7 @@ function AuthenticatedApp() {
                     key={i}
                     className={`text-center py-2 rounded-lg border ${
                       batchProgress.current > i ? 'bg-green-100 border-green-300 text-green-700 font-bold' :
-                      batchProgress.current === i + 1 ? 'bg-purple-100 border-purple-300 text-purple-700 font-bold animate-pulse' :
+                      batchProgress.current === i + 1 ? 'bg-blue-100 border-blue-300 text-blue-700 font-bold animate-pulse' :
                       'bg-gray-50 border-gray-200 text-gray-400'
                     }`}
                   >

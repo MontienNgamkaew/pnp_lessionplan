@@ -270,11 +270,11 @@ const UserInfoModal = ({ isOpen, onSubmit, onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 bg-black/60 z-[60] flex items-center justify-center p-4 backdrop-blur-sm">
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md max-h-[92vh] overflow-y-auto relative">
+    <div className="fixed inset-0 bg-slate-950/60 z-[60] flex items-center justify-center p-4 backdrop-blur-sm">
+      <div className="pnp-shell-card rounded-xl w-full max-w-md max-h-[92vh] overflow-y-auto relative">
 
         {/* Header */}
-        <div className="bg-gradient-to-r from-blue-600 to-indigo-600 p-5 rounded-t-2xl text-white relative">
+        <div className="bg-slate-950 p-5 rounded-t-xl text-white relative">
           <button onClick={onClose} className="absolute top-4 right-4 text-white/70 hover:text-white transition"><X size={22} /></button>
           <div className="flex items-center gap-3">
             <div className="bg-white/20 p-2.5 rounded-xl cursor-pointer select-none" onClick={handleIconClick}><Download className="w-6 h-6" /></div>

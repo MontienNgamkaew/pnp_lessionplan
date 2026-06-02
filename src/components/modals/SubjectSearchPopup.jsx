@@ -141,12 +141,12 @@ const SubjectSearchPopup = ({ isOpen, onClose, onSelect }) => {
 
   return (
     <div
-      className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4 backdrop-blur-sm"
+      className="fixed inset-0 bg-slate-950/60 z-50 flex items-center justify-center p-4 backdrop-blur-sm"
       onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
     >
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-3xl max-h-[90vh] flex flex-col relative overflow-hidden">
+      <div className="pnp-shell-card rounded-xl w-full max-w-3xl max-h-[90vh] flex flex-col relative overflow-hidden">
         {/* Header */}
-        <div className="bg-gradient-to-r from-blue-600 to-indigo-600 p-4 flex items-center justify-between text-white">
+        <div className="bg-slate-950 p-4 flex items-center justify-between text-white">
           <div className="flex items-center gap-2">
             <div className="bg-white/20 p-2 rounded-full">
               <Search size={20} />
