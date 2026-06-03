@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import {
-  BookOpenCheck, ChevronRight, Download, Eye, Facebook, Globe, Instagram,
+  ChevronRight, Download, Eye, Facebook, Globe, Instagram,
   LockKeyhole, PanelLeftClose, PanelLeftOpen, Save, ShieldCheck, Sparkles, Trash2, Upload, Youtube,
 } from 'lucide-react';
 import { MENU_ITEMS } from '../../constants/menuItems.jsx';
@@ -23,12 +23,10 @@ const StatItem = ({ icon: Icon, label, value }) => (
   </div>
 );
 
-const Sidebar = ({ activeMenu, setActiveMenu, onMobileClose, moduleStatus, onExportProject, onImportProject, onSecretBatchTrigger, onOpenAdminPool, collapsed = false, onToggleCollapsed }) => {
+const Sidebar = ({ activeMenu, setActiveMenu, onMobileClose, moduleStatus, onExportProject, onImportProject, onOpenAdminPool, collapsed = false, onToggleCollapsed }) => {
   const [stats, setStats] = useState({ totalVisits: 0, totalDownloads: 0, totalGenerations: 0 });
   const isLabMode = new URLSearchParams(window.location.search).has('lab');
   const importRef = useRef(null);
-  const logoClickCountRef = useRef(0);
-  const logoClickTimerRef = useRef(null);
 
   const handleAdminAccess = () => {
     const input = window.prompt('รหัสผ่าน Admin');
@@ -38,19 +36,6 @@ const Sidebar = ({ activeMenu, setActiveMenu, onMobileClose, moduleStatus, onExp
     } else if (input.trim() !== '') {
       alert('รหัสผ่านไม่ถูกต้อง');
     }
-  };
-
-  const handleLogoClick = () => {
-    logoClickCountRef.current += 1;
-    if (logoClickTimerRef.current) clearTimeout(logoClickTimerRef.current);
-    if (logoClickCountRef.current >= 3) {
-      logoClickCountRef.current = 0;
-      onSecretBatchTrigger?.();
-      return;
-    }
-    logoClickTimerRef.current = setTimeout(() => {
-      logoClickCountRef.current = 0;
-    }, 1200);
   };
 
   useEffect(() => {
@@ -74,7 +59,7 @@ const Sidebar = ({ activeMenu, setActiveMenu, onMobileClose, moduleStatus, onExp
   const completedCount = mainItems.filter((item) => moduleStatus?.[item.id]).length;
 
   return (
-    <div className="pnp-shell-card rounded-xl sticky top-4 h-auto md:min-h-[calc(100vh-2rem)] flex flex-col overflow-hidden transition-[width] duration-200">
+    <div className="pnp-shell-card rounded-xl sticky top-20 h-auto md:min-h-[calc(100vh-6rem)] flex flex-col overflow-hidden transition-[width] duration-200">
       <div className={`bg-gradient-to-br from-slate-950 via-blue-950 to-blue-800 ${collapsed ? 'px-3 py-4' : 'px-4 py-5'} text-white`}>
         <button
           type="button"
@@ -84,26 +69,12 @@ const Sidebar = ({ activeMenu, setActiveMenu, onMobileClose, moduleStatus, onExp
         >
           {collapsed ? <PanelLeftOpen size={17} /> : <PanelLeftClose size={17} />}
         </button>
-        <div
-          onClick={handleLogoClick}
-          className={`flex items-center ${collapsed ? 'justify-center' : 'gap-3'} cursor-pointer select-none active:scale-[0.99] transition`}
-          title="กด 3 ครั้งติดต่อกันเพื่อเรียกใช้ปุ่มลับ"
-        >
-          <div className="h-12 w-12 rounded-xl bg-white/12 border border-white/15 flex items-center justify-center shadow-inner">
-            <BookOpenCheck size={25} />
-          </div>
-          <div className={`min-w-0 ${collapsed ? 'hidden' : ''}`}>
-            <div className="text-[11px] uppercase tracking-[0.18em] text-sky-200 font-semibold">PNP Platform</div>
-            <h1 className="text-lg font-extrabold leading-tight">PNP AI Lesson Planner</h1>
-          </div>
-        </div>
-
-        <div className={`mt-4 rounded-lg border border-white/12 bg-white/10 px-3 py-3 ${collapsed ? 'hidden' : ''}`}>
+        <div className={`rounded-lg border border-white/12 bg-white/10 px-3 py-3 ${collapsed ? 'py-2' : ''}`}>
           <div className="flex items-center justify-between text-xs text-blue-50">
-            <span>Workflow Progress</span>
-            <span className="font-bold">{completedCount}/{mainItems.length}</span>
+            <span className={collapsed ? 'sr-only' : ''}>Workflow Progress</span>
+            <span className={`font-bold ${collapsed ? 'mx-auto text-[11px]' : ''}`}>{completedCount}/{mainItems.length}</span>
           </div>
-          <div className="mt-2 h-2 rounded-full bg-white/15 overflow-hidden">
+          <div className={`mt-2 h-2 rounded-full bg-white/15 overflow-hidden ${collapsed ? 'hidden' : ''}`}>
             <div
               className="h-full rounded-full bg-gradient-to-r from-sky-300 to-cyan-200 transition-all"
               style={{ width: `${mainItems.length ? (completedCount / mainItems.length) * 100 : 0}%` }}

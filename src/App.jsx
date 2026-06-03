@@ -628,9 +628,26 @@ function AuthenticatedApp() {
         currentKey={apiKey}
       />
 
-      <div className="md:hidden bg-slate-950 text-white px-4 py-3 flex items-center justify-between sticky top-0 z-50 shadow-lg">
-        <span className="font-bold flex items-center gap-2"><BookOpen size={20} /> PNP AI Lesson Planner</span>
-        <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="p-2 rounded-lg hover:bg-white/10"><Menu size={22} /></button>
+      <div className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur">
+        <div className="max-w-[1480px] mx-auto px-3 sm:px-4 py-3 flex items-center justify-between gap-3">
+          <div className="flex items-center gap-3 min-w-0">
+            <div className="h-11 w-11 rounded-xl bg-gradient-to-br from-blue-800 to-sky-500 text-white flex items-center justify-center shadow-sm ring-1 ring-blue-200">
+              <BookOpen size={23} />
+            </div>
+            <div className="min-w-0">
+              <div className="text-[10px] sm:text-[11px] uppercase tracking-[0.18em] text-blue-600 font-extrabold">PNP Platform</div>
+              <h1 className="text-base sm:text-xl font-extrabold text-slate-950 leading-tight truncate">PNP AI Lesson Planner</h1>
+              <p className="hidden sm:block text-xs text-slate-500 truncate">ผู้ช่วย AI สร้างแผนการจัดการเรียนรู้รายวิชา</p>
+            </div>
+          </div>
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="md:hidden h-10 w-10 rounded-lg border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 flex items-center justify-center"
+            aria-label="Toggle menu"
+          >
+            <Menu size={22} />
+          </button>
+        </div>
       </div>
 
       <div className="flex max-w-[1480px] mx-auto pt-4 px-3 sm:px-4 gap-4 lg:gap-5 items-start">
@@ -641,7 +658,6 @@ function AuthenticatedApp() {
             moduleStatus={moduleStatus}
             onExportProject={handleExportProject}
             onImportProject={handleImportProject}
-            onSecretBatchTrigger={runBatchEarlyModules}
             onOpenAdminPool={trainingAdmin.openPool}
             collapsed={isSidebarCollapsed && !isMobileMenuOpen}
             onToggleCollapsed={() => setIsSidebarCollapsed((value) => !value)}
