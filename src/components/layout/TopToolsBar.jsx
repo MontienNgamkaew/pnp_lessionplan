@@ -79,10 +79,10 @@ const TopToolsBar = ({ onOpenPdfTool, onOpenApiKeyModal, providerName, providerI
     ? 'w-full xl:flex-1 xl:min-w-0'
     : 'pnp-shell-card rounded-xl mb-4 px-3 sm:px-4 py-3';
   const innerClass = embedded
-    ? 'flex flex-col 2xl:flex-row 2xl:items-center gap-3 justify-end'
+    ? 'flex flex-wrap items-center gap-2 justify-end'
     : 'flex flex-col xl:flex-row xl:items-center gap-3 justify-between';
   const centerClass = embedded
-    ? 'flex min-w-0 items-center gap-3 rounded-xl border border-slate-200 bg-white/80 px-3 py-2 shadow-sm'
+    ? 'flex min-w-[260px] flex-1 items-center gap-3 rounded-xl border border-slate-200 bg-white/80 px-3 py-2 shadow-sm'
     : 'flex min-w-0 items-center gap-3';
 
   return (
@@ -101,7 +101,7 @@ const TopToolsBar = ({ onOpenPdfTool, onOpenApiKeyModal, providerName, providerI
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center gap-2 justify-end">
+        <div className="flex flex-wrap items-center gap-2 justify-end shrink-0">
           <button
             onClick={onOpenApiKeyModal}
             title={errorDetail ? `${s.label}\n${errorDetail}\n\n(คลิกเพื่อตั้งค่า / เปลี่ยน API Key)` : `${s.label}\n\n(คลิกเพื่อตั้งค่า / เปลี่ยน API Key)`}
