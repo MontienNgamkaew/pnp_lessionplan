@@ -41,7 +41,7 @@ const ApiKeyModal = ({ isOpen, onClose, onSave, currentProvider, currentKey }) =
   };
 
   return (
-    <div className="fixed inset-0 bg-slate-950/60 z-50 flex items-start sm:items-center justify-center p-3 sm:p-4 backdrop-blur-sm overflow-y-auto">
+    <div className="fixed inset-0 bg-slate-950/60 z-[70] flex items-start sm:items-center justify-center p-3 sm:p-4 backdrop-blur-sm overflow-y-auto">
       <div className="pnp-shell-card rounded-xl w-full max-w-md my-3 sm:my-0 max-h-[calc(100vh-1.5rem)] sm:max-h-[calc(100vh-2rem)] flex flex-col relative">
         <button onClick={onClose} className="absolute top-3 right-3 sm:top-4 sm:right-4 text-gray-400 hover:text-gray-600 z-10">
           <X size={24} />

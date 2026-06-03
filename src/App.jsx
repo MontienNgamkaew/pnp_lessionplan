@@ -628,7 +628,7 @@ function AuthenticatedApp() {
         currentKey={apiKey}
       />
 
-      <div className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur">
+      <div className="sticky top-0 z-30 border-b border-slate-200/80 bg-white/95 backdrop-blur">
         <div className="max-w-[1480px] mx-auto px-3 sm:px-4 py-3 flex items-center justify-between gap-3">
           <div className="flex items-center gap-3 min-w-0">
             <div className="h-11 w-11 rounded-xl bg-gradient-to-br from-blue-800 to-sky-500 text-white flex items-center justify-center shadow-sm ring-1 ring-blue-200">
