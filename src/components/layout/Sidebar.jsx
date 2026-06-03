@@ -59,7 +59,7 @@ const Sidebar = ({ activeMenu, setActiveMenu, onMobileClose, moduleStatus, onExp
   const completedCount = mainItems.filter((item) => moduleStatus?.[item.id]).length;
 
   return (
-    <div className="pnp-shell-card rounded-xl sticky top-20 h-auto md:min-h-[calc(100vh-6rem)] flex flex-col overflow-hidden transition-[width] duration-200">
+    <div className="pnp-shell-card rounded-xl sticky top-28 h-auto md:min-h-[calc(100vh-8rem)] flex flex-col overflow-hidden transition-[width] duration-200">
       <div className={`bg-gradient-to-br from-slate-950 via-blue-950 to-blue-800 ${collapsed ? 'px-3 py-4' : 'px-4 py-5'} text-white`}>
         <button
           type="button"

@@ -663,7 +663,7 @@ function AuthenticatedApp() {
       </div>
 
       <div className="flex max-w-[1480px] mx-auto pt-4 px-3 sm:px-4 gap-4 lg:gap-5 items-start">
-        <aside className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:block w-full ${isSidebarCollapsed ? 'md:w-20' : 'md:w-80'} shrink-0 z-40 transition-[width] duration-200`}>
+        <aside className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:block w-full ${isSidebarCollapsed ? 'md:w-20' : 'md:w-80'} shrink-0 z-20 transition-[width] duration-200`}>
           <Sidebar
             activeMenu={activeMenu} setActiveMenu={setActiveMenu}
             onMobileClose={() => setIsMobileMenuOpen(false)}
