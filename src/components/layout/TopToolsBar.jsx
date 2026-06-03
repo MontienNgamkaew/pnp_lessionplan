@@ -27,7 +27,7 @@ const ToolButton = ({ children, className = '', ...props }) => (
   </button>
 );
 
-const TopToolsBar = ({ onOpenPdfTool, onOpenApiKeyModal, providerName, providerId, apiKey, onExportAll, exportAllLoading }) => {
+const TopToolsBar = ({ onOpenPdfTool, onOpenApiKeyModal, providerName, providerId, apiKey, onExportAll, exportAllLoading, embedded = false }) => {
   const [status, setStatus] = useState('unchecked');
   const [errorDetail, setErrorDetail] = useState('');
 
@@ -75,24 +75,33 @@ const TopToolsBar = ({ onOpenPdfTool, onOpenApiKeyModal, providerName, providerI
 
   const s = STATUS[status] || STATUS.unchecked;
   const Icon = s.icon;
+  const wrapperClass = embedded
+    ? 'w-full xl:flex-1 xl:min-w-0'
+    : 'pnp-shell-card rounded-xl mb-4 px-3 sm:px-4 py-3';
+  const innerClass = embedded
+    ? 'flex flex-col 2xl:flex-row 2xl:items-center gap-3 justify-end'
+    : 'flex flex-col xl:flex-row xl:items-center gap-3 justify-between';
+  const centerClass = embedded
+    ? 'flex min-w-0 items-center gap-3 rounded-xl border border-slate-200 bg-white/80 px-3 py-2 shadow-sm'
+    : 'flex min-w-0 items-center gap-3';
 
   return (
-    <div className="pnp-shell-card rounded-xl mb-4 px-3 sm:px-4 py-3">
-      <div className="flex flex-col xl:flex-row xl:items-center gap-3 justify-between">
-        <div className="flex min-w-0 items-center gap-3">
-          <ProviderBadge providerId={providerId} size="lg" />
+    <div className={wrapperClass}>
+      <div className={innerClass}>
+        <div className={centerClass}>
+          <ProviderBadge providerId={providerId} size={embedded ? 'md' : 'lg'} />
           <div className="min-w-0">
             <div className="text-[11px] font-bold uppercase tracking-[0.16em] text-slate-400">Command Center</div>
             <div className="mt-1 flex items-center gap-2 text-sm text-slate-600">
               <span className={`h-2.5 w-2.5 rounded-full ${s.dot}`} />
-              <span className="font-semibold text-slate-900">{providerName || 'AI Provider'}</span>
+              <span className="font-semibold text-slate-900 truncate">{providerName || 'AI Provider'}</span>
               <span className="text-slate-400">/</span>
-              <span>{s.label}</span>
+              <span className="whitespace-nowrap">{s.label}</span>
             </div>
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2 justify-end">
           <button
             onClick={onOpenApiKeyModal}
             title={errorDetail ? `${s.label}\n${errorDetail}\n\n(คลิกเพื่อตั้งค่า / เปลี่ยน API Key)` : `${s.label}\n\n(คลิกเพื่อตั้งค่า / เปลี่ยน API Key)`}

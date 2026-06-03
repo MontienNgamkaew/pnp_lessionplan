@@ -629,7 +629,7 @@ function AuthenticatedApp() {
       />
 
       <div className="sticky top-0 z-30 border-b border-slate-200/80 bg-white/95 backdrop-blur">
-        <div className="max-w-[1480px] mx-auto px-3 sm:px-4 py-3 flex items-center justify-between gap-3">
+        <div className="max-w-[1480px] mx-auto px-3 sm:px-4 py-3 flex flex-col xl:flex-row xl:items-center justify-between gap-3">
           <div className="flex items-center gap-3 min-w-0">
             <div className="h-11 w-11 rounded-xl bg-gradient-to-br from-blue-800 to-sky-500 text-white flex items-center justify-center shadow-sm ring-1 ring-blue-200">
               <BookOpen size={23} />
@@ -640,13 +640,25 @@ function AuthenticatedApp() {
               <p className="hidden sm:block text-xs text-slate-500 truncate">ผู้ช่วย AI สร้างแผนการจัดการเรียนรู้รายวิชา</p>
             </div>
           </div>
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden h-10 w-10 rounded-lg border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 flex items-center justify-center"
-            aria-label="Toggle menu"
-          >
-            <Menu size={22} />
-          </button>
+          <div className="w-full xl:flex-1 xl:min-w-0 flex items-start gap-2">
+            <TopToolsBar
+              embedded
+              onOpenPdfTool={() => setIsPdfToolOpen(true)}
+              onOpenApiKeyModal={() => setIsApiKeyModalOpen(true)}
+              providerName={providerMeta?.name || ''}
+              providerId={providerId}
+              apiKey={apiKey}
+              onExportAll={handleExportAll}
+              exportAllLoading={exportAllLoading}
+            />
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="md:hidden h-10 w-10 rounded-lg border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 flex items-center justify-center shrink-0"
+              aria-label="Toggle menu"
+            >
+              <Menu size={22} />
+            </button>
+          </div>
         </div>
       </div>
 
@@ -664,15 +676,6 @@ function AuthenticatedApp() {
           />
         </aside>
         <main className="flex-1 min-w-0">
-          <TopToolsBar
-            onOpenPdfTool={() => setIsPdfToolOpen(true)}
-            onOpenApiKeyModal={() => setIsApiKeyModalOpen(true)}
-            providerName={providerMeta?.name || ''}
-            providerId={providerId}
-            apiKey={apiKey}
-            onExportAll={handleExportAll}
-            exportAllLoading={exportAllLoading}
-          />
           <ModuleGate enabled={training.isModuleEnabled(activeMenu)} moduleName={activeMenu}>
             {renderModule()}
           </ModuleGate>
