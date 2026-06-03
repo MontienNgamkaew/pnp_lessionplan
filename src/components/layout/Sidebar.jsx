@@ -1,17 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 import {
-  ChevronRight, Download, Eye, Facebook, Globe, Instagram,
-  LockKeyhole, PanelLeftClose, PanelLeftOpen, Save, ShieldCheck, Sparkles, Trash2, Upload, Youtube,
+  ChevronRight, Download, Eye,
+  LockKeyhole, PanelLeftClose, PanelLeftOpen, Save, ShieldCheck, Sparkles, Trash2, Upload,
 } from 'lucide-react';
 import { MENU_ITEMS } from '../../constants/menuItems.jsx';
 import { getUsageStats, fetchRealStats, trackVisit } from '../../utils/usageStats';
 import { ADMIN_PASSWORD } from '../../constants/adminAuth';
-
-const TikTokIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
-  </svg>
-);
 
 const StatItem = ({ icon: Icon, label, value }) => (
   <div className="rounded-lg border border-slate-200 bg-white px-3 py-2">
@@ -221,12 +215,8 @@ const Sidebar = ({ activeMenu, setActiveMenu, onMobileClose, moduleStatus, onExp
           <div className="flex items-center justify-center gap-1.5 text-[11px] font-semibold text-slate-500">
             <Sparkles size={12} className="text-blue-500" /> Professional AI Lesson Platform
           </div>
-          <div className="mt-2 flex justify-center gap-3 text-slate-400">
-            <a href="https://www.facebook.com/kruarm55" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition" title="Facebook"><Facebook size={15} /></a>
-            <a href="https://www.youtube.com/@kruarm55" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition" title="Youtube"><Youtube size={15} /></a>
-            <a href="https://www.tiktok.com/@kruarm55" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition" title="TikTok"><TikTokIcon /></a>
-            <a href="https://www.instagram.com/kruarm555" target="_blank" rel="noopener noreferrer" className="hover:text-pink-600 transition" title="Instagram"><Instagram size={15} /></a>
-            <a href="http://www.kruarm.net" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition" title="Website"><Globe size={15} /></a>
+          <div className="mt-2 text-[11px] font-semibold text-slate-400">
+            By Montien Ngamkaew
           </div>
         </div>
       </div>
